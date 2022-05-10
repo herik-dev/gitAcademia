@@ -1,0 +1,14 @@
+{
+  "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "LXoukkCFhZteWjfXP98XUdjHHmWCTnCBsonu/pMSiccNTbw0FGgNyxogyOLNhNzHvpCZpOYIg+beNywNFHPo1A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\herik\\OneDrive\\Área de Trabalho\\gitAcademia\\exerciciosAcademia\\exercicio5\\exercicio5\\exercicio5.csproj",
+=======
+  "dgSpecHash": "S5FV+rs8lDUHmKupQV8l8ZnkATpvxFsQZowiu/TPPi6WGOWk8JY6+UWdwRt3iIPm8ogjGs/OqVHOXf0pQKn8ZQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\herik\\OneDrive\\Área de Trabalho\\gitAcademia\\exerciciosAcademia\\exerciciosAcademia\\exercicio5\\exercicio5\\exercicio5.csproj",
+>>>>>>> 25949655b3d59a488a784efd6c61b0c3923cbf72
+  "expectedPackageFiles": [],
+  "logs": []
+}

@@ -1,0 +1,15 @@
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exercicios\exemplodivisao\exemplodivisao\bin\Debug\net6.0\exemplodivisao.exe
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exercicios\exemplodivisao\exemplodivisao\bin\Debug\net6.0\exemplodivisao.deps.json
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exercicios\exemplodivisao\exemplodivisao\bin\Debug\net6.0\exemplodivisao.runtimeconfig.json
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exercicios\exemplodivisao\exemplodivisao\bin\Debug\net6.0\exemplodivisao.dll
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exercicios\exemplodivisao\exemplodivisao\bin\Debug\net6.0\exemplodivisao.pdb
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exercicios\exemplodivisao\exemplodivisao\obj\Debug\net6.0\exemplodivisao.csproj.AssemblyReference.cache
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exercicios\exemplodivisao\exemplodivisao\obj\Debug\net6.0\exemplodivisao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exercicios\exemplodivisao\exemplodivisao\obj\Debug\net6.0\exemplodivisao.AssemblyInfoInputs.cache
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exercicios\exemplodivisao\exemplodivisao\obj\Debug\net6.0\exemplodivisao.AssemblyInfo.cs
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exercicios\exemplodivisao\exemplodivisao\obj\Debug\net6.0\exemplodivisao.csproj.CoreCompileInputs.cache
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exercicios\exemplodivisao\exemplodivisao\obj\Debug\net6.0\exemplodivisao.dll
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exercicios\exemplodivisao\exemplodivisao\obj\Debug\net6.0\refint\exemplodivisao.dll
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exercicios\exemplodivisao\exemplodivisao\obj\Debug\net6.0\exemplodivisao.pdb
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exercicios\exemplodivisao\exemplodivisao\obj\Debug\net6.0\exemplodivisao.genruntimeconfig.cache
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exercicios\exemplodivisao\exemplodivisao\obj\Debug\net6.0\ref\exemplodivisao.dll

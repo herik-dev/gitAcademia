@@ -1,0 +1,15 @@
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\condExemplo17v2\condExemplo17v2\bin\Debug\net6.0\condExemplo17v2.exe
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\condExemplo17v2\condExemplo17v2\bin\Debug\net6.0\condExemplo17v2.deps.json
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\condExemplo17v2\condExemplo17v2\bin\Debug\net6.0\condExemplo17v2.runtimeconfig.json
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\condExemplo17v2\condExemplo17v2\bin\Debug\net6.0\condExemplo17v2.dll
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\condExemplo17v2\condExemplo17v2\bin\Debug\net6.0\condExemplo17v2.pdb
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\condExemplo17v2\condExemplo17v2\obj\Debug\net6.0\condExemplo17v2.csproj.AssemblyReference.cache
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\condExemplo17v2\condExemplo17v2\obj\Debug\net6.0\condExemplo17v2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\condExemplo17v2\condExemplo17v2\obj\Debug\net6.0\condExemplo17v2.AssemblyInfoInputs.cache
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\condExemplo17v2\condExemplo17v2\obj\Debug\net6.0\condExemplo17v2.AssemblyInfo.cs
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\condExemplo17v2\condExemplo17v2\obj\Debug\net6.0\condExemplo17v2.csproj.CoreCompileInputs.cache
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\condExemplo17v2\condExemplo17v2\obj\Debug\net6.0\condExemplo17v2.dll
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\condExemplo17v2\condExemplo17v2\obj\Debug\net6.0\refint\condExemplo17v2.dll
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\condExemplo17v2\condExemplo17v2\obj\Debug\net6.0\condExemplo17v2.pdb
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\condExemplo17v2\condExemplo17v2\obj\Debug\net6.0\condExemplo17v2.genruntimeconfig.cache
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\condExemplo17v2\condExemplo17v2\obj\Debug\net6.0\ref\condExemplo17v2.dll

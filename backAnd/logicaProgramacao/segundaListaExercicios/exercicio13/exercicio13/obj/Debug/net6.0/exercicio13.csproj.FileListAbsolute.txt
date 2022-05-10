@@ -1,0 +1,15 @@
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\exercicio13\exercicio13\bin\Debug\net6.0\exercicio13.exe
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\exercicio13\exercicio13\bin\Debug\net6.0\exercicio13.deps.json
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\exercicio13\exercicio13\bin\Debug\net6.0\exercicio13.runtimeconfig.json
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\exercicio13\exercicio13\bin\Debug\net6.0\exercicio13.dll
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\exercicio13\exercicio13\bin\Debug\net6.0\exercicio13.pdb
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\exercicio13\exercicio13\obj\Debug\net6.0\exercicio13.csproj.AssemblyReference.cache
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\exercicio13\exercicio13\obj\Debug\net6.0\exercicio13.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\exercicio13\exercicio13\obj\Debug\net6.0\exercicio13.AssemblyInfoInputs.cache
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\exercicio13\exercicio13\obj\Debug\net6.0\exercicio13.AssemblyInfo.cs
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\exercicio13\exercicio13\obj\Debug\net6.0\exercicio13.csproj.CoreCompileInputs.cache
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\exercicio13\exercicio13\obj\Debug\net6.0\exercicio13.dll
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\exercicio13\exercicio13\obj\Debug\net6.0\refint\exercicio13.dll
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\exercicio13\exercicio13\obj\Debug\net6.0\exercicio13.pdb
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\exercicio13\exercicio13\obj\Debug\net6.0\exercicio13.genruntimeconfig.cache
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\exercicio13\exercicio13\obj\Debug\net6.0\ref\exercicio13.dll

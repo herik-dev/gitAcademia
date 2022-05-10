@@ -1,0 +1,15 @@
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\condExemplo4\condExemplo4\bin\Debug\net6.0\condExemplo4.exe
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\condExemplo4\condExemplo4\bin\Debug\net6.0\condExemplo4.deps.json
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\condExemplo4\condExemplo4\bin\Debug\net6.0\condExemplo4.runtimeconfig.json
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\condExemplo4\condExemplo4\bin\Debug\net6.0\condExemplo4.dll
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\condExemplo4\condExemplo4\bin\Debug\net6.0\condExemplo4.pdb
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\condExemplo4\condExemplo4\obj\Debug\net6.0\condExemplo4.csproj.AssemblyReference.cache
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\condExemplo4\condExemplo4\obj\Debug\net6.0\condExemplo4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\condExemplo4\condExemplo4\obj\Debug\net6.0\condExemplo4.AssemblyInfoInputs.cache
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\condExemplo4\condExemplo4\obj\Debug\net6.0\condExemplo4.AssemblyInfo.cs
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\condExemplo4\condExemplo4\obj\Debug\net6.0\condExemplo4.csproj.CoreCompileInputs.cache
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\condExemplo4\condExemplo4\obj\Debug\net6.0\condExemplo4.dll
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\condExemplo4\condExemplo4\obj\Debug\net6.0\refint\condExemplo4.dll
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\condExemplo4\condExemplo4\obj\Debug\net6.0\condExemplo4.pdb
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\condExemplo4\condExemplo4\obj\Debug\net6.0\condExemplo4.genruntimeconfig.cache
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\condExemplo4\condExemplo4\obj\Debug\net6.0\ref\condExemplo4.dll

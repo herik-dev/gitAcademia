@@ -1,0 +1,15 @@
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\exercicioString\exercicioString\obj\Debug\net6.0\exercicioString.csproj.AssemblyReference.cache
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\exercicioString\exercicioString\obj\Debug\net6.0\exercicioString.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\exercicioString\exercicioString\obj\Debug\net6.0\exercicioString.AssemblyInfoInputs.cache
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\exercicioString\exercicioString\obj\Debug\net6.0\exercicioString.AssemblyInfo.cs
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\exercicioString\exercicioString\obj\Debug\net6.0\exercicioString.csproj.CoreCompileInputs.cache
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\exercicioString\exercicioString\bin\Debug\net6.0\exercicioString.exe
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\exercicioString\exercicioString\bin\Debug\net6.0\exercicioString.deps.json
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\exercicioString\exercicioString\bin\Debug\net6.0\exercicioString.runtimeconfig.json
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\exercicioString\exercicioString\bin\Debug\net6.0\exercicioString.dll
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\exercicioString\exercicioString\bin\Debug\net6.0\exercicioString.pdb
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\exercicioString\exercicioString\obj\Debug\net6.0\exercicioString.dll
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\exercicioString\exercicioString\obj\Debug\net6.0\refint\exercicioString.dll
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\exercicioString\exercicioString\obj\Debug\net6.0\exercicioString.pdb
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\exercicioString\exercicioString\obj\Debug\net6.0\exercicioString.genruntimeconfig.cache
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\exercicioString\exercicioString\obj\Debug\net6.0\ref\exercicioString.dll

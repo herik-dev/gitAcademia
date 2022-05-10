@@ -1,0 +1,15 @@
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\condExemplo19\condExemplo19\bin\Debug\net6.0\condExemplo19.exe
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\condExemplo19\condExemplo19\bin\Debug\net6.0\condExemplo19.deps.json
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\condExemplo19\condExemplo19\bin\Debug\net6.0\condExemplo19.runtimeconfig.json
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\condExemplo19\condExemplo19\bin\Debug\net6.0\condExemplo19.dll
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\condExemplo19\condExemplo19\bin\Debug\net6.0\condExemplo19.pdb
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\condExemplo19\condExemplo19\obj\Debug\net6.0\condExemplo19.csproj.AssemblyReference.cache
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\condExemplo19\condExemplo19\obj\Debug\net6.0\condExemplo19.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\condExemplo19\condExemplo19\obj\Debug\net6.0\condExemplo19.AssemblyInfoInputs.cache
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\condExemplo19\condExemplo19\obj\Debug\net6.0\condExemplo19.AssemblyInfo.cs
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\condExemplo19\condExemplo19\obj\Debug\net6.0\condExemplo19.csproj.CoreCompileInputs.cache
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\condExemplo19\condExemplo19\obj\Debug\net6.0\condExemplo19.dll
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\condExemplo19\condExemplo19\obj\Debug\net6.0\refint\condExemplo19.dll
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\condExemplo19\condExemplo19\obj\Debug\net6.0\condExemplo19.pdb
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\condExemplo19\condExemplo19\obj\Debug\net6.0\condExemplo19.genruntimeconfig.cache
+C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\condExemplo19\condExemplo19\obj\Debug\net6.0\ref\condExemplo19.dll
