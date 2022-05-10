@@ -13,3 +13,18 @@ C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\exercic
 C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\exerciciosDesafios\exerciciosDesafios\obj\Debug\net6.0\exerciciosDesafios.pdb
 C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\exerciciosDesafios\exerciciosDesafios\obj\Debug\net6.0\exerciciosDesafios.genruntimeconfig.cache
 C:\Users\herik\OneDrive\Área de Trabalho\gitAcademia\exerciciosAcademia\exerciciosDesafios\exerciciosDesafios\obj\Debug\net6.0\ref\exerciciosDesafios.dll
+C:\Users\herik\Desktop\gitAcademia\backAnd\Condicionais\exerciciosDesafios\exerciciosDesafios\obj\Debug\net6.0\exerciciosDesafios.csproj.AssemblyReference.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\Condicionais\exerciciosDesafios\exerciciosDesafios\obj\Debug\net6.0\exerciciosDesafios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\herik\Desktop\gitAcademia\backAnd\Condicionais\exerciciosDesafios\exerciciosDesafios\obj\Debug\net6.0\exerciciosDesafios.AssemblyInfoInputs.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\Condicionais\exerciciosDesafios\exerciciosDesafios\obj\Debug\net6.0\exerciciosDesafios.AssemblyInfo.cs
+C:\Users\herik\Desktop\gitAcademia\backAnd\Condicionais\exerciciosDesafios\exerciciosDesafios\obj\Debug\net6.0\exerciciosDesafios.csproj.CoreCompileInputs.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\Condicionais\exerciciosDesafios\exerciciosDesafios\obj\Debug\net6.0\exerciciosDesafios.dll
+C:\Users\herik\Desktop\gitAcademia\backAnd\Condicionais\exerciciosDesafios\exerciciosDesafios\obj\Debug\net6.0\refint\exerciciosDesafios.dll
+C:\Users\herik\Desktop\gitAcademia\backAnd\Condicionais\exerciciosDesafios\exerciciosDesafios\obj\Debug\net6.0\exerciciosDesafios.pdb
+C:\Users\herik\Desktop\gitAcademia\backAnd\Condicionais\exerciciosDesafios\exerciciosDesafios\bin\Debug\net6.0\exerciciosDesafios.exe
+C:\Users\herik\Desktop\gitAcademia\backAnd\Condicionais\exerciciosDesafios\exerciciosDesafios\bin\Debug\net6.0\exerciciosDesafios.deps.json
+C:\Users\herik\Desktop\gitAcademia\backAnd\Condicionais\exerciciosDesafios\exerciciosDesafios\bin\Debug\net6.0\exerciciosDesafios.runtimeconfig.json
+C:\Users\herik\Desktop\gitAcademia\backAnd\Condicionais\exerciciosDesafios\exerciciosDesafios\bin\Debug\net6.0\exerciciosDesafios.dll
+C:\Users\herik\Desktop\gitAcademia\backAnd\Condicionais\exerciciosDesafios\exerciciosDesafios\bin\Debug\net6.0\exerciciosDesafios.pdb
+C:\Users\herik\Desktop\gitAcademia\backAnd\Condicionais\exerciciosDesafios\exerciciosDesafios\obj\Debug\net6.0\exerciciosDesafios.genruntimeconfig.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\Condicionais\exerciciosDesafios\exerciciosDesafios\obj\Debug\net6.0\ref\exerciciosDesafios.dll

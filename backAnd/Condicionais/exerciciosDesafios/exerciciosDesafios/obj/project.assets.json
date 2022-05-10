@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\herik\\OneDrive\\Área de Trabalho\\gitAcademia\\exerciciosAcademia\\exerciciosDesafios\\exerciciosDesafios\\exerciciosDesafios.csproj",
+      "projectUniqueName": "C:\\Users\\herik\\Desktop\\gitAcademia\\backAnd\\Condicionais\\exerciciosDesafios\\exerciciosDesafios\\exerciciosDesafios.csproj",
       "projectName": "exerciciosDesafios",
-      "projectPath": "C:\\Users\\herik\\OneDrive\\Área de Trabalho\\gitAcademia\\exerciciosAcademia\\exerciciosDesafios\\exerciciosDesafios\\exerciciosDesafios.csproj",
+      "projectPath": "C:\\Users\\herik\\Desktop\\gitAcademia\\backAnd\\Condicionais\\exerciciosDesafios\\exerciciosDesafios\\exerciciosDesafios.csproj",
       "packagesPath": "C:\\Users\\herik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\herik\\OneDrive\\Área de Trabalho\\gitAcademia\\exerciciosAcademia\\exerciciosDesafios\\exerciciosDesafios\\obj\\",
+      "outputPath": "C:\\Users\\herik\\Desktop\\gitAcademia\\backAnd\\Condicionais\\exerciciosDesafios\\exerciciosDesafios\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\herik\\AppData\\Roaming\\NuGet\\NuGet.Config",

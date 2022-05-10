@@ -647,16 +647,16 @@ if (opcaoDesafio == 14)
     ///<summary>
     /// Declaração de variáveis
     /// </summary>    
-    double linkInternet, tamanhoArquivo, segundos, minutos;
+    decimal linkInternet, tamanhoArquivo, segundos, minutos;
 
     ///<summary>
     /// Recolhendo dados do cliente
     ///</summary>
     Console.WriteLine("Informe a velocidade do seu link de internet: ");
-    linkInternet = double.Parse(Console.ReadLine());
+    linkInternet = decimal.Parse(Console.ReadLine());
 
     Console.WriteLine("Informe o tamanho do arquivo que deseja baixar: ");
-    tamanhoArquivo = double.Parse(Console.ReadLine());
+    tamanhoArquivo = decimal.Parse(Console.ReadLine());
 
     ///<summary>
     /// Realizando calculos 
@@ -667,6 +667,36 @@ if (opcaoDesafio == 14)
     ///<summary>
     ///Transmitindo informações ao usuário
     ///</summary>
-    Console.WriteLine("Tempo aproximado para download: " + minutos + " minutos e " + segundos + " segundos")
+    Console.WriteLine("Tempo aproximado para download: " + minutos + " minutos e " + segundos + " segundos");
+
+}
+
+if(opcaoDesafio == 15)
+{
+    /*
+    15 - Faça um programa para uma loja de tintas.O programa deverá pedir o tamanho em metros quadrados
+    da área a ser pintada. Considere que a cobertura da tinta é de 1 litro para cada 3 metros quadrados
+    e que a tinta é vendida em latas de 18 litros, que custam R$ 80,00.
+    Informe ao usuário a quantidades de latas de tinta a serem compradas e o preço total.
+    */
+
+    ///<summary>
+    /// Declaração de variáveis
+    /// </summary>
+    int metroQuadrado, latasTinta, litros;
+    double total;
+
+    ///<summary>
+    /// Colhendo dados do usuário
+    /// </summary>    
+    Console.WriteLine("Informe quantos m² precisa pintar: ");
+    metroQuadrado = int.Parse(Console.ReadLine());
+    
+    litros = metroQuadrado / 3; // quantidade de litros que será preciso utilizar
+    latasTinta = litros * 18; // quantidade de latas que será preciso utilizar
+    total = latasTinta * 80;
+
+    Console.WriteLine("Voce precisará de " + latasTinta + " latas de tinta.\nSomando o total de " + total + " reais" );
+
 
 }
