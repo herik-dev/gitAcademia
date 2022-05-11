@@ -1,0 +1,15 @@
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\exemplosClasse\exemplosClasse\bin\Debug\net6.0\exemplosClasse.exe
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\exemplosClasse\exemplosClasse\bin\Debug\net6.0\exemplosClasse.deps.json
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\exemplosClasse\exemplosClasse\bin\Debug\net6.0\exemplosClasse.runtimeconfig.json
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\exemplosClasse\exemplosClasse\bin\Debug\net6.0\exemplosClasse.dll
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\exemplosClasse\exemplosClasse\bin\Debug\net6.0\exemplosClasse.pdb
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\exemplosClasse\exemplosClasse\obj\Debug\net6.0\exemplosClasse.csproj.AssemblyReference.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\exemplosClasse\exemplosClasse\obj\Debug\net6.0\exemplosClasse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\exemplosClasse\exemplosClasse\obj\Debug\net6.0\exemplosClasse.AssemblyInfoInputs.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\exemplosClasse\exemplosClasse\obj\Debug\net6.0\exemplosClasse.AssemblyInfo.cs
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\exemplosClasse\exemplosClasse\obj\Debug\net6.0\exemplosClasse.csproj.CoreCompileInputs.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\exemplosClasse\exemplosClasse\obj\Debug\net6.0\exemplosClasse.dll
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\exemplosClasse\exemplosClasse\obj\Debug\net6.0\refint\exemplosClasse.dll
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\exemplosClasse\exemplosClasse\obj\Debug\net6.0\exemplosClasse.pdb
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\exemplosClasse\exemplosClasse\obj\Debug\net6.0\exemplosClasse.genruntimeconfig.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\exemplosClasse\exemplosClasse\obj\Debug\net6.0\ref\exemplosClasse.dll
