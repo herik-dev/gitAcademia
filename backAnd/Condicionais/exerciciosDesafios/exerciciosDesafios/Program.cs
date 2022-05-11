@@ -715,16 +715,215 @@ if (opcaoDesafio == 16)
 
      plus: caso ocorra um segundo jogo, leia o placar desse novo jogo e então diga quem passou de fase.
     */
+
     int timeFora, timeCasa;
 
+
+    ///<summary>
+    ///Colhendo informações do usuário
+    /// </summary>
     Console.Write("Informe  quantos gols fez o time de fora: ");
     timeFora = int.Parse(Console.ReadLine());
-    
+
     Console.Write("Informe  quantos gols fez o time da casa: ");
     timeCasa = int.Parse(Console.ReadLine());
 
+    ///<summary>
+    ///Comparação sobre classificação do time de fora
+    /// </summary>
+    if (timeFora > timeCasa && (timeFora - timeCasa)>=2)
+    {
+        Console.WriteLine($"time da casa {timeCasa} x {timeFora}\nTime da fora já se classificou! Pois ganhou com uma diferença de 2 gols!");
+    }else if(timeFora > timeCasa && timeFora - timeCasa == 1 || timeFora == timeCasa)
+    {
+        ///<summary>
+        ///Comparação em caso de empate ou se a diferença for de 1 gol
+        /// </summary>
+        Console.WriteLine($"time da casa {timeFora} x {timeCasa} time de fora");
+        Console.WriteLine("Os dois times se enfrentarão em um novo jogo...");
+    }
+
+    ///<summary>
+    ///Comparação sobre classificação do time da casa
+    /// </summary>
+    else if (timeCasa > timeFora && timeCasa - timeFora == 1 || timeCasa == timeFora)
+    {
+        Console.WriteLine($"time da casa {timeCasa} x {timeFora} time de fora");
+        Console.WriteLine("Os dois times se enfrentarão em um novo jogo...");
+    }
+
+    ///<summary>
+    ///Realizando um novo jogo
+    /// </summary>
+    Console.WriteLine("Próximo jogo...");
+
+    Console.Write("Informe  quantos gols fez o time de fora: ");
+    timeFora = int.Parse(Console.ReadLine());
+
+    Console.Write("Informe  quantos gols fez o time da casa: ");
+    timeCasa = int.Parse(Console.ReadLine());
+
+    if (timeCasa > timeFora && (timeCasa - timeFora) >= 2)
+    {
+        Console.WriteLine($"time da casa {timeFora} x {timeCasa}\nTime da casa já se classificou! Pois ganhou com uma diferença de 2 gols!");
+    }
+    else if (timeFora > timeCasa && timeFora - timeCasa == 1 || timeFora == timeCasa)
+    {
+        Console.WriteLine($"time da casa {timeFora} x {timeCasa} time de fora");
+        Console.WriteLine("Empate!");
+    }
+    else if (timeCasa > timeFora && timeCasa - timeFora == 1 || timeCasa == timeFora)
+    {
+        Console.WriteLine($"time da casa {timeCasa} x {timeFora} time de fora");
+        Console.WriteLine("Empate!");
+    }
+
     if (timeCasa > timeFora)
     {
-        Console.WriteLine("time da casa " + timeCasa + " x " + timeFora + "" );
+        Console.WriteLine($"time da casa {timeCasa} x {timeFora} time de fora");
+        Console.WriteLine($"O time da casa passou para a próxima fase");
     }
+    else if (timeCasa == timeFora)
+    {
+        Console.WriteLine($"time da casa {timeCasa} x {timeFora} time de fora");
+        Console.WriteLine("Empate!");
+    }
+    else
+    {
+        Console.WriteLine($"time da casa {timeCasa} x {timeFora} time de fora");
+        Console.WriteLine("O time de fora passou para a próxima fase");
+    }
+}
+if (opcaoDesafio == 17)
+{
+    /*
+     17 - Faça um algoritmo que leia o tamanho dos lados de um triangulo 
+     (lado a, b e c), e então diga se esses lados podem ou não formar um
+     triangulo. Para que os lados formem um triângulo, todos os lados devem 
+     ser menores ou iguais a soma dos outros dois lados. Caso os lados formem 
+     um triangulo, diga se o mesmo é equilátero (todos os lados iguais), isoceles
+     (somente 2 lados são iguais) ou escaleno (os 3 lados são diferentes).
+     */
+    ///<summary>
+    /// Declaração de variáveis
+    /// </summary>
+    string ladoA, ladoB, ladoC;
+
+    ///<summary>
+    ///Colhendo dados do usuário
+    /// </summary>
+    Console.WriteLine("Informe o tamanho dos 3 lados do triangulo: ");
+    ladoA = Console.ReadLine();
+    ladoB = Console.ReadLine();
+    ladoC = Console.ReadLine();
+
+    ///<summary>
+    ///Realizando comparações para descobrir o equilatero, isoceles e escaleno
+    /// </summary>
+    if(ladoA == ladoB && ladoB == ladoC && ladoC == ladoA && ladoC == ladoB)
+    {
+        Console.WriteLine("Os tamanhos informados, formam um equilátero!");
+    }
+    else if(ladoA == ladoB && ladoA != ladoC && ladoB != ladoC)
+    {
+        Console.WriteLine("Os tamanhos informados, formam um isóceles!");
+    }
+    else
+    {
+        Console.WriteLine("Os tamanhos informados, formam um escaleno!");
+    }
+}
+if(opcaoDesafio == 18)
+{
+    /*
+     18 - Escreva um algoritmo que leia 3 valores pelo teclado e
+     então informe qual o maior deles.
+     */
+
+    ///<summary>
+    ///Declaração de variáveis
+    /// </summary>
+    double valor1, valor2, valor3;
+
+    ///<summary>
+    /// Solicitado dados ao usuario, para realizarmos comparação entre eles
+    /// </summary>
+    Console.WriteLine("Informe 3 valores, para descobrirmos qual é o maior: ");
+    valor1 = double.Parse(Console.ReadLine());
+    valor2 = double.Parse(Console.ReadLine());
+    valor3 = double.Parse(Console.ReadLine());
+
+    ///<summary>
+    ///Realizando comparações para descobrir o maior valor
+    /// </summary>
+    if (valor1 > valor2 && valor1 > valor3)
+    {
+        Console.WriteLine($"{valor1} é o maior valor.");
+    }
+    if (valor2 > valor1 && valor2 > valor3)
+    {
+        Console.WriteLine($"{valor2} é o maior valor.");
+    }
+    else
+    {
+        Console.WriteLine($"{valor3} é o maior valor.");
+    }
+
+}
+if (opcaoDesafio == 19)
+{
+    /*
+     19 - Ajuste o exercício 3 de maneira que mostre os valores informados em ordem crescente.
+
+    3 - Escrever um mundo superior para ler quatro valores inteiros, calcular a sua média, e 
+        escrever na tela os que à média.
+     */
+
+    List<int>valor = new List<int>();
+    int contador=1;
+
+    ///<summary>
+    ///Estrutura de repetição para coletar informações do usuário
+    /// </summary>
+   while (contador <= 4)
+    {
+        Console.WriteLine($"Digite o {contador}º número: ");
+        valor.Add(int.Parse(Console.ReadLine()));
+        contador++;
+    }
+
+    valor.Sort();//método para organizar a lista em ordem crescente
+    Console.Clear();//comando para limpar a tela
+
+    ///<summary>
+    /// Imprimindo a lista em ordem crescente
+    /// </summary>
+    Console.WriteLine("Organizando em ordem crescente os números informados: ");
+    Console.WriteLine(valor[0]);
+    Console.WriteLine(valor[1]);
+    Console.WriteLine(valor[2]);
+    Console.WriteLine(valor[3]);
+
+}
+if(opcaoDesafio == 20)
+{
+    /*
+     * 20 - Escreva um algoritmo para o jogo de adivinhação do número secreto. 
+     * O jogador tem 3 chances e recebe dicas do tipo “é maior” ou “é menor”. 
+       plus: você pode gerar o número de forma randomica (função random c#).
+     */
+    int numero;
+    int contador = 1;
+    int i = 3;
+    Random rnd = new Random();
+    do
+    {
+
+        Console.WriteLine($"Informe o número que deseja adivinhar (Você tem {i} chances): ");
+        numero = int.Parse(Console.ReadLine());
+        Console.WriteLine($"O número sorteado foi: {rnd.Next(9)}\nTente novamente, provavelmente o próximo seja maior.\n");
+        i--;
+        contador++;
+    } while (contador <= 3);
+    
 }
