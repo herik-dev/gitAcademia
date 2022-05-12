@@ -87,6 +87,64 @@ if(exemplosFor == 5)
 //exemplo6
 if (exemplosFor == 6)
 {
-    
+    /*
+     Escreva um algoritmo leia pelo teclado um valor
+     inteiro chamado x, e então mostre na tela todos 
+     os números de 0 a 100 que são divisíveis por x.
+     */
+    int x, i;
+
+    Console.WriteLine("Informe o numero x:");
+    x = int.Parse(Console.ReadLine());
+
+    for (i = 0; i <= 100; i++)
+    {
+        if (i % x == 0)
+        {
+            Console.WriteLine(i);
+        }
+    }
+}
+if (exemplosFor == 7)
+{
+    /*
+     Escreva um algoritmo leia pelo teclado um valor
+     inteiro chamado x, e então mostre na tela todos 
+     os números de 0 a 100 que são divisíveis por x.
+     */
+    int x, i, taboada;
+    string operador = operador.ToUpper();
+
+    Console.WriteLine("Informe o numero  que deseja saber a taboada:");
+    x = int.Parse(Console.ReadLine());
+
+    Console.WriteLine("Digite M para multiplicacao, D para divisão e S para subtração");
+    operador = Console.ReadLine();
+
+    if(operador == "M")
+    for (i = 0; i <= 10; i++)
+    {
+        taboada = i * x;
+            Console.WriteLine($"taboada de multiplicação de {x} é:");
+        Console.WriteLine($"{x} x {i} = {taboada}");
+    } 
+    else if (operador == "D" )
+        for (i = 0; i <= 10; i++)
+        {
+            taboada = i / x;
+            Console.WriteLine($"taboada de divisão de {x} é:");
+            Console.WriteLine($"{x} / {i} = {taboada}");
+        }
+    else if (operador == "S")
+        for (i = 0; i <= 10; i++)
+        {
+            taboada = i - x;
+            Console.WriteLine($"taboada de subtração de {x} é:");
+            Console.WriteLine($"{x} - {i} = {taboada}");
+        }
+    else
+    {
+        Console.WriteLine("Operador invalido, digite M, D ou S.");
+    }
 }
 
