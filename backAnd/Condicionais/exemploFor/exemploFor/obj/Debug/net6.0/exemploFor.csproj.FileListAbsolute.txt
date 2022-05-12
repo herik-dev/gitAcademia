@@ -1,0 +1,15 @@
+C:\Users\herik\Desktop\gitAcademia\backAnd\Condicionais\exemploFor\exemploFor\bin\Debug\net6.0\exemploFor.exe
+C:\Users\herik\Desktop\gitAcademia\backAnd\Condicionais\exemploFor\exemploFor\bin\Debug\net6.0\exemploFor.deps.json
+C:\Users\herik\Desktop\gitAcademia\backAnd\Condicionais\exemploFor\exemploFor\bin\Debug\net6.0\exemploFor.runtimeconfig.json
+C:\Users\herik\Desktop\gitAcademia\backAnd\Condicionais\exemploFor\exemploFor\bin\Debug\net6.0\exemploFor.dll
+C:\Users\herik\Desktop\gitAcademia\backAnd\Condicionais\exemploFor\exemploFor\bin\Debug\net6.0\exemploFor.pdb
+C:\Users\herik\Desktop\gitAcademia\backAnd\Condicionais\exemploFor\exemploFor\obj\Debug\net6.0\exemploFor.csproj.AssemblyReference.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\Condicionais\exemploFor\exemploFor\obj\Debug\net6.0\exemploFor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\herik\Desktop\gitAcademia\backAnd\Condicionais\exemploFor\exemploFor\obj\Debug\net6.0\exemploFor.AssemblyInfoInputs.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\Condicionais\exemploFor\exemploFor\obj\Debug\net6.0\exemploFor.AssemblyInfo.cs
+C:\Users\herik\Desktop\gitAcademia\backAnd\Condicionais\exemploFor\exemploFor\obj\Debug\net6.0\exemploFor.csproj.CoreCompileInputs.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\Condicionais\exemploFor\exemploFor\obj\Debug\net6.0\exemploFor.dll
+C:\Users\herik\Desktop\gitAcademia\backAnd\Condicionais\exemploFor\exemploFor\obj\Debug\net6.0\refint\exemploFor.dll
+C:\Users\herik\Desktop\gitAcademia\backAnd\Condicionais\exemploFor\exemploFor\obj\Debug\net6.0\exemploFor.pdb
+C:\Users\herik\Desktop\gitAcademia\backAnd\Condicionais\exemploFor\exemploFor\obj\Debug\net6.0\exemploFor.genruntimeconfig.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\Condicionais\exemploFor\exemploFor\obj\Debug\net6.0\ref\exemploFor.dll
