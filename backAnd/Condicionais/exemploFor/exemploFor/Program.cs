@@ -113,13 +113,13 @@ if (exemplosFor == 7)
      os números de 0 a 100 que são divisíveis por x.
      */
     int x, i, taboada;
-    string operador = operador.ToUpper();
+    string operador = ;
 
     Console.WriteLine("Informe o numero  que deseja saber a taboada:");
     x = int.Parse(Console.ReadLine());
 
     Console.WriteLine("Digite M para multiplicacao, D para divisão e S para subtração");
-    operador = Console.ReadLine();
+    operador.ToUpper() = Console.ReadLine();
 
     if(operador == "M")
     for (i = 0; i <= 10; i++)
@@ -128,7 +128,7 @@ if (exemplosFor == 7)
             Console.WriteLine($"taboada de multiplicação de {x} é:");
         Console.WriteLine($"{x} x {i} = {taboada}");
     } 
-    else if (operador == "D" )
+    else if (operador == "D")
         for (i = 0; i <= 10; i++)
         {
             taboada = i / x;
