@@ -1,0 +1,15 @@
+C:\Users\herik\Desktop\gitAcademia\backAnd\Listas\listaGlicemia\listaGlicemia\bin\Debug\net6.0\listaGlicemia.exe
+C:\Users\herik\Desktop\gitAcademia\backAnd\Listas\listaGlicemia\listaGlicemia\bin\Debug\net6.0\listaGlicemia.deps.json
+C:\Users\herik\Desktop\gitAcademia\backAnd\Listas\listaGlicemia\listaGlicemia\bin\Debug\net6.0\listaGlicemia.runtimeconfig.json
+C:\Users\herik\Desktop\gitAcademia\backAnd\Listas\listaGlicemia\listaGlicemia\bin\Debug\net6.0\listaGlicemia.dll
+C:\Users\herik\Desktop\gitAcademia\backAnd\Listas\listaGlicemia\listaGlicemia\bin\Debug\net6.0\listaGlicemia.pdb
+C:\Users\herik\Desktop\gitAcademia\backAnd\Listas\listaGlicemia\listaGlicemia\obj\Debug\net6.0\listaGlicemia.csproj.AssemblyReference.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\Listas\listaGlicemia\listaGlicemia\obj\Debug\net6.0\listaGlicemia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\herik\Desktop\gitAcademia\backAnd\Listas\listaGlicemia\listaGlicemia\obj\Debug\net6.0\listaGlicemia.AssemblyInfoInputs.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\Listas\listaGlicemia\listaGlicemia\obj\Debug\net6.0\listaGlicemia.AssemblyInfo.cs
+C:\Users\herik\Desktop\gitAcademia\backAnd\Listas\listaGlicemia\listaGlicemia\obj\Debug\net6.0\listaGlicemia.csproj.CoreCompileInputs.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\Listas\listaGlicemia\listaGlicemia\obj\Debug\net6.0\listaGlicemia.dll
+C:\Users\herik\Desktop\gitAcademia\backAnd\Listas\listaGlicemia\listaGlicemia\obj\Debug\net6.0\refint\listaGlicemia.dll
+C:\Users\herik\Desktop\gitAcademia\backAnd\Listas\listaGlicemia\listaGlicemia\obj\Debug\net6.0\listaGlicemia.pdb
+C:\Users\herik\Desktop\gitAcademia\backAnd\Listas\listaGlicemia\listaGlicemia\obj\Debug\net6.0\listaGlicemia.genruntimeconfig.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\Listas\listaGlicemia\listaGlicemia\obj\Debug\net6.0\ref\listaGlicemia.dll

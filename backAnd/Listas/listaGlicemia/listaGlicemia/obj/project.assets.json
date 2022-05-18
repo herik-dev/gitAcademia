@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\herik\\Desktop\\gitAcademia\\backAnd\\logicaProgramacao\\manipulacaoString\\exercicioString\\exercicioString\\exercicioString.csproj",
-      "projectName": "exercicioString",
-      "projectPath": "C:\\Users\\herik\\Desktop\\gitAcademia\\backAnd\\logicaProgramacao\\manipulacaoString\\exercicioString\\exercicioString\\exercicioString.csproj",
+      "projectUniqueName": "C:\\Users\\herik\\Desktop\\gitAcademia\\backAnd\\Listas\\listaGlicemia\\listaGlicemia\\listaGlicemia.csproj",
+      "projectName": "listaGlicemia",
+      "projectPath": "C:\\Users\\herik\\Desktop\\gitAcademia\\backAnd\\Listas\\listaGlicemia\\listaGlicemia\\listaGlicemia.csproj",
       "packagesPath": "C:\\Users\\herik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\herik\\Desktop\\gitAcademia\\backAnd\\logicaProgramacao\\manipulacaoString\\exercicioString\\exercicioString\\obj\\",
+      "outputPath": "C:\\Users\\herik\\Desktop\\gitAcademia\\backAnd\\Listas\\listaGlicemia\\listaGlicemia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\herik\\AppData\\Roaming\\NuGet\\NuGet.Config",
