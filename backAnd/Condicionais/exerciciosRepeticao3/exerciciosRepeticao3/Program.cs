@@ -452,56 +452,310 @@ if (opcaoExercicio == 9)
     Console.WriteLine($"{pessoas8Filhos} pessoas tem mais de 8 filhos.");
     Console.WriteLine($"{pessoasSemFilhos} pessoas não tem filhos.");
 }
-/*
-10. Ler nome, sexo e idade de 50 pessoas e após imprimir:
-Número de pessoas do sexo masculino.
-Número de pessoas do sexo feminino.
-Número de pessoas com idade inferior a 30 anos.
-Número de pessoas com idade superior a 60 anos.
-Média de idade das mulheres.
+
+if (opcaoExercicio == 10)
+{
+    /*
+    10. Ler nome, sexo e idade de 50 pessoas e após imprimir:
+    Número de pessoas do sexo masculino.
+    Número de pessoas do sexo feminino.
+    Número de pessoas com idade inferior a 30 anos.
+    Número de pessoas com idade superior a 60 anos.
+    Média de idade das mulheres.
+    */
+    string nome = "", sexo = "";
+    int idade = 0, i, contadorM = 0, contadorF = 0, idade30 = 0, idade60 = 0, media = 0, idadeMulheres = 0;
+
+    for (i = 1; i < 3; i++)
+    {
+        Console.WriteLine($"Informe o {i} nome: ");
+        nome = Console.ReadLine();
+        Console.WriteLine("Informe seu sexo(masculino ou feminino): ");
+        sexo = Console.ReadLine();
+        Console.WriteLine("Informe sua idade: ");
+        idade = int.Parse(Console.ReadLine());
+        ///<summary>
+        /// Contador de pessoas pelo sexo
+        /// </summary>
+        if (sexo == "masculino")
+        {
+            contadorM++;
+        }
+        if (sexo == "feminino")
+        {
+            idadeMulheres = idade + idadeMulheres;
+            contadorF++;
+        }
+        ///<summary>
+        /// Contador de pessoas pela idade
+        /// </summary>
+        if (idade < 30)
+        {
+            idade30++;
+        }
+        if (idade < 60)
+        {
+            idade60++;
+        }
+    }
+    media = (idade / contadorF);
+    Console.Write($"\n{contadorM} pessoas do sexo masculino.");
+    Console.Write($"\n{contadorF} pessoas do sexo feminino.");
+    Console.Write($"\n{idade30} pessoas com idade inferior a 30 anos.");
+    Console.Write($"\n{idade60} pessoas com idade superior a 60 anos.");
+    Console.Write($"\n Média de idade das mulheres é de {media}");
+
+}
+
+if (opcaoExercicio == 11)
+{
+    /*
+    11: Ler as notas de uma turma de alunos e ao final imprimir a nota mais alta, a nota mais baixa, 
+    a média aritmética da turma e a quantidade de alunos da turma. Usar como flag a nota 12.
+    */
+
+    ///<summary>
+    /// Declaração de variáveis
+    /// </summary>
+    float notaMaisAlta = 0, notaMaisBaixa = 400, media, nota, calculo = 0;
+    int i, quantAlunos, aprovados = 0, reprovados = 0;
+    string nome, nomeMaiorNota="", nomeMenorNota="";
+
+    ///<summary>
+    /// Descobrindo quantos alunos a sala tem
+    /// </summary>
+    Console.WriteLine("Informe quantos alunos possui a turma: ");
+    quantAlunos = int.Parse(Console.ReadLine());
+    Console.Clear();
+
+    ///<summary>
+    /// Laço de repetição para colher dados de todos os alunos da turma
+    /// </summary>
+    for (i=1; i <= quantAlunos; i++)
+    {
+        Console.WriteLine($"Informe o nome do {i} aluno: ");
+        nome = Console.ReadLine();
+
+        Console.WriteLine("Infome sua nota: ");
+        nota = float.Parse(Console.ReadLine());
+
+        ///<summary>
+        /// Somatoria de todas as notas
+        /// </summary>
+        calculo = nota + calculo;
+
+        ///<summary>
+        /// Estrutura de comparação para descobrir a maior e a menor nota
+        /// </summary>
+        if(nota > notaMaisAlta)
+        {
+            notaMaisAlta = nota;
+            nomeMaiorNota = nome;
+        }
+        if(nota < notaMaisBaixa)
+        {
+            notaMaisBaixa = nota;
+            nomeMenorNota = nome;
+        }
+        if(nota < 12)
+        {
+            reprovados++;
+        }
+        else if(nota >= 12)
+        {
+            aprovados++;
+        }
+    }
+    ///<summary>
+    /// Entregando informações ao usuário
+    /// </summary>
+    Console.Clear();
+    media = (calculo/quantAlunos);
+    Console.WriteLine($"O aluno {nomeMaiorNota}, tirou {notaMaisAlta}. É a nota mais alta!");
+    Console.WriteLine($"O aluno {nomeMenorNota}, tirou {notaMaisBaixa}. É a nota mais baixa...");
+    Console.WriteLine($"A média aritmética da turma é: {media}");
+    Console.WriteLine($"A turma possui: {quantAlunos}");
+}
+
+if (opcaoExercicio == 12)
+{
+    /*
+    12: Apresentar o total da soma dos cem primeiros números inteiros.
+    */
+
+    ///<summary>
+    /// Declaração de variáveis
+    /// </summary>
+    int i, auxiliar=0;
+
+    ///<summary>
+    ///Informando ao usuário a soma de todos os números inteiros até 100
+    /// </summary>
+    for (i=1; i <= 100; i++)
+    {
+        auxiliar = i + auxiliar;
+    }
+    Console.WriteLine($"Soma dos 100 primeiros números inteiros: {auxiliar}");
+}
+
+if (opcaoExercicio == 13)
+{
+    /*
+    13: Elaborar um programa que apresente o somatório dos valores pares existentes entre 1 e 500.
+    */
+    ///<summary>
+    ///Declaração de variáveis
+    /// </summary>
+    int i, auxiliar = 0;
+
+    for(i=1; i < 500; i++)
+    {
+        if(i % 2 == 0)
+        {
+            auxiliar = i + auxiliar;
+            Console.WriteLine(i);
+            Console.WriteLine($"Novo valor: {auxiliar}");
+        }
+    }
+    Console.WriteLine($"A soma de todos o valores entre 1 e 500 é de: {auxiliar}");
+}
+
+if (opcaoExercicio == 14)
+{
+    /*
+    14: Mostrar as potências de 2 variando de 0 a 10.
+    */
+    int valor2 = 2, i;
+    for (i = 0; i <= 10; i++)
+    {
+        Console.WriteLine($"{valor2}^{i} = {(long)Math.Pow(valor2, i)} ");
+    }
+}
+if (opcaoExercicio == 15)
+{
+    /*
+    15: Ler 4 valores referentes a notas escolares de um aluno e imprimir uma mensagem dizendo se ele está aprovado 
+    ou reprovado, após ter calculado sua média ponderando, considerando pesos 2, 1, 2, e 4, respectivamente. 
+    Considerar nota 7,0 como mínima para aprovação.
+    */
+    float nota,notaTotal=0, media;
+    int i;
+
+    for (i = 1; i <= 4; i++)
+    {
+        Console.WriteLine($"informe a {i}º nota:");
+        nota = float.Parse(Console.ReadLine());
+        notaTotal = nota + notaTotal;
+    }
+    media = i / notaTotal;
+    if (media >= 7)
+    {
+        Console.WriteLine("Aprovado!");
+    }
+    else
+    {
+        Console.WriteLine("Reprovado");
+    }
+    
+}
 
 
-11: Ler as notas de uma turma de alunos e ao final imprimir a nota mais alta, a nota mais baixa, 
-a média aritmética da turma e a quantidade de alunos da turma. Usar como flag a nota 12.
+if (opcaoExercicio == 16)
+{
+    /*
+    16: Ler um número N qualquer menor ou igual a 50 e apresentar o valor obtido da multiplicação sucessiva de N 
+    por 3 enquanto o produto for menor que 250 (N*3; N*3*3; N*3*3*3; etc).
+    */
+    int numero, calculadora=0;
+    int i;
 
-12: Apresentar o total da soma dos cem primeiros números inteiros.
+    Console.WriteLine("Informe um número igual ou menor que 50: ");
+    numero = int.Parse(Console.ReadLine());
 
-13: Elaborar um programa que apresente o somatório dos valores pares existentes entre 1 e 500.
+    for (i=3; calculadora < 250; i= i + 3)
+    {
+        if (numero <= 50)
+        {
+            calculadora = numero * i;
+            Console.WriteLine($"{numero} * 3 = {calculadora}");
+        }
+        else
+        {
+            Console.WriteLine("Número inválido.");
+        }
+    } 
+}
 
-14: Mostrar as potências de 2 variando de 0 a 10.
+if (opcaoExercicio == 17)
+{
+    /*
+    17: Apresentar os quadrados dos números inteiros de 15 a 200.
+    */
+    double i;
+    for (i=15; i <= 200; i++)
+    {
+        Console.WriteLine($"{i} ao quadrado: {Math.Sqrt(i)}");
+    }
+}
+if(opcaoExercicio == 18)
+{
+    /*
+    18: Elaborar um programa que apresente o valor de uma potência de uma base qualquer elevada a um expoente 
+    qualquer, ou seja, NM.
+*/
+    double numeroBase, numeroExpoente, i, calculo=1;
 
-15: Ler 4 valores referentes a notas escolares de um aluno e imprimir uma mensagem dizendo se ele está aprovado 
-ou reprovado, após ter calculado sua média ponderando, considerando pesos 2, 1, 2, e 4, respectivamente. 
-Considerar nota 7,0 como mínima para aprovação.
+    Console.WriteLine("Informe o número base que deseja descobrir a potencia: ");
+    numeroBase = double.Parse(Console.ReadLine());
+    
+    Console.WriteLine("Informe o expoente");
+    numeroExpoente = double.Parse(Console.ReadLine());
 
-16: Ler um número N qualquer menor ou igual a 50 e apresentar o valor obtido da multiplicação sucessiva de N 
-por 3 enquanto o produto for menor que 250 (N*3; N*3*3; N*3*3*3; etc).
+    for(i=0; i <= numeroExpoente; i++)
+    {
+        calculo = numeroBase * calculo;
+    }
+    Console.WriteLine($"O resultado é: {calculo}");
+}
 
-17: Apresentar os quadrados dos números inteiros de 15 a 200.
-
-18: Elaborar um programa que apresente o valor de uma potência de uma base qualquer elevada a um expoente 
-qualquer, ou seja, NM.
-
-19. A prefeitura de uma cidade fez uma pesquisa entre seus habitantes, coletando dados sobre o salário e número 
-de filhos. A prefeitura deseja saber: 
+if(opcaoExercicio == 19)
+{
+    /*
+    19. A prefeitura de uma cidade fez uma pesquisa entre seus habitantes, coletando dados sobre o salário e
+    número de filhos. A prefeitura deseja saber: 
  
-a) média do salário da população;
-b) média do número de filhos;
-c) maior salário;
-d) percentual de pessoas com salário até R$ 100,00.
-O final da leitura de dados se dará com a entrada de um salário negativo.
+    a) média do salário da população;
+    b) média do número de filhos;
+    c) maior salário;
+    d) percentual de pessoas com salário até R$ 100,00.
+    O final da leitura de dados se dará com a entrada de um salário negativo.
+    */
+    double salario, media, mediaTotal, salarioMenor, salarioMaior;
+    int i;
+    
+    
+}
 
-20. Foi realizada uma pesquisa de algumas características físicas da população de uma certa região, a qual coletou os seguintes dados referentes a cada habitante para serem analisados:
-- sexo (masculino e feminino)
-- cor dos olhos (azuis, verdes ou castanhos)
-- cor dos cabelos ( louros, castanhos, pretos)
-- idade 
- 
-21. Faça um algoritmo que determine e escreva: 
- 
-- a maior idade dos habitantes
-- a quantidade de indivíduos do sexo feminino cuja idade está entre 18 e 35 anos inclusive
-e que tenham olhos verdes e cabelos louros.
-O final do conjunto de habitantes é reconhecido pelo valor -1 entrada como idade.
- */
+if (opcaoExercicio == 20)
+{
+    /*
+    20. Foi realizada uma pesquisa de algumas características físicas da população de uma certa região, 
+    a qual coletou os seguintes dados referentes a cada habitante para serem analisados:
+    - sexo (masculino e feminino)
+    - cor dos olhos (azuis, verdes ou castanhos)
+    - cor dos cabelos ( louros, castanhos, pretos)
+    - idade 
+    */
+}
 
+if (opcaoExercicio == 21)
+{
+    /*
+    21. Faça um algoritmo que determine e escreva: 
+ 
+    - a maior idade dos habitantes
+    - a quantidade de indivíduos do sexo feminino cuja idade está entre 18 e 35 anos inclusive
+    e que tenham olhos verdes e cabelos louros.
+    O final do conjunto de habitantes é reconhecido pelo valor -1 entrada como idade.
+    */
+}
