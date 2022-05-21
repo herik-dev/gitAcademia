@@ -721,19 +721,68 @@ if(opcaoExercicio == 18)
 if(opcaoExercicio == 19)
 {
     /*
-    19. A prefeitura de uma cidade fez uma pesquisa entre seus habitantes, coletando dados sobre o salário e
-    número de filhos. A prefeitura deseja saber: 
+    19. A prefeitura de uma cidade fez uma pesquisa entre seus habitantes, 
+        coletando dados sobre o salário e número de filhos. 
+        A prefeitura deseja saber: 
  
     a) média do salário da população;
+
     b) média do número de filhos;
-    c) maior salário;
+    
+    c) maior salário; v
+    
     d) percentual de pessoas com salário até R$ 100,00.
+
     O final da leitura de dados se dará com a entrada de um salário negativo.
     */
-    double salario, media, mediaTotal, salarioMenor, salarioMaior;
-    int i;
-    
-    
+
+    ///<summary>
+    ///Variáveis separada com suas determinadas funções
+    /// </summary>
+    double salario = 0, salarioMaior = 0, totalSalario = 0;
+    double numeroFilhos = 0, totalFilhos = 0;
+    double contadorSalario100 = 0, percentual100 = 0;
+    double media, mediaFilhos = 0;
+    int contadorPessoas = 0, contadorFilhos = 0;
+    do
+    {
+        Console.WriteLine($"Infome o salário do {contadorPessoas}º habitante: ");
+        salario = double.Parse(Console.ReadLine());
+        contadorPessoas++;
+        totalSalario = salario + totalSalario;
+
+        ///<summary>
+        ///Descobrindo o maior salário
+        /// </summary>
+        if (salario > salarioMaior)
+        {
+            salarioMaior = salario;
+        }
+        
+        if(salario < 100)
+        {
+            contadorSalario100++;
+        }
+
+
+
+
+        Console.WriteLine($"Informe quantos filhos {numeroFilhos}");
+        numeroFilhos = double.Parse(Console.ReadLine());
+
+        contadorFilhos++;//contador da quantidade de filhos
+        totalFilhos = numeroFilhos + totalFilhos;//descobrindo o total de filhos da população
+
+    } while (salario < 0);
+
+    media = contadorPessoas / salario; // calculo para descobrir a média do salario da população
+    mediaFilhos = contadorFilhos / totalFilhos;
+    percentual100 = (contadorSalario100/100)(conta);
+
+    Console.Write($"\nA média do salário da população é: {media}");
+    Console.Write($"\nA média do número de filhos da população é: {mediaFilhos}");
+    Console.Write($"\nO maior salario é: {salarioMaior}");
+
 }
 
 if (opcaoExercicio == 20)

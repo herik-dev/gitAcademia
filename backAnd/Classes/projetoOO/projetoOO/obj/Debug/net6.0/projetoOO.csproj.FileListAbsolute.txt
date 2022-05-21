@@ -1,0 +1,15 @@
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\projetoOO\projetoOO\bin\Debug\net6.0\projetoOO.exe
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\projetoOO\projetoOO\bin\Debug\net6.0\projetoOO.deps.json
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\projetoOO\projetoOO\bin\Debug\net6.0\projetoOO.runtimeconfig.json
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\projetoOO\projetoOO\bin\Debug\net6.0\projetoOO.dll
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\projetoOO\projetoOO\bin\Debug\net6.0\projetoOO.pdb
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\projetoOO\projetoOO\obj\Debug\net6.0\projetoOO.csproj.AssemblyReference.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\projetoOO\projetoOO\obj\Debug\net6.0\projetoOO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\projetoOO\projetoOO\obj\Debug\net6.0\projetoOO.AssemblyInfoInputs.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\projetoOO\projetoOO\obj\Debug\net6.0\projetoOO.AssemblyInfo.cs
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\projetoOO\projetoOO\obj\Debug\net6.0\projetoOO.csproj.CoreCompileInputs.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\projetoOO\projetoOO\obj\Debug\net6.0\projetoOO.dll
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\projetoOO\projetoOO\obj\Debug\net6.0\refint\projetoOO.dll
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\projetoOO\projetoOO\obj\Debug\net6.0\projetoOO.pdb
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\projetoOO\projetoOO\obj\Debug\net6.0\projetoOO.genruntimeconfig.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\projetoOO\projetoOO\obj\Debug\net6.0\ref\projetoOO.dll
