@@ -1,0 +1,15 @@
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\ExercicioTesteClasse\ExercicioTesteClasse\obj\Debug\net6.0\ExercicioTesteClasse.csproj.AssemblyReference.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\ExercicioTesteClasse\ExercicioTesteClasse\obj\Debug\net6.0\ExercicioTesteClasse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\ExercicioTesteClasse\ExercicioTesteClasse\obj\Debug\net6.0\ExercicioTesteClasse.AssemblyInfoInputs.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\ExercicioTesteClasse\ExercicioTesteClasse\obj\Debug\net6.0\ExercicioTesteClasse.AssemblyInfo.cs
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\ExercicioTesteClasse\ExercicioTesteClasse\obj\Debug\net6.0\ExercicioTesteClasse.csproj.CoreCompileInputs.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\ExercicioTesteClasse\ExercicioTesteClasse\bin\Debug\net6.0\ExercicioTesteClasse.exe
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\ExercicioTesteClasse\ExercicioTesteClasse\bin\Debug\net6.0\ExercicioTesteClasse.deps.json
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\ExercicioTesteClasse\ExercicioTesteClasse\bin\Debug\net6.0\ExercicioTesteClasse.runtimeconfig.json
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\ExercicioTesteClasse\ExercicioTesteClasse\bin\Debug\net6.0\ExercicioTesteClasse.dll
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\ExercicioTesteClasse\ExercicioTesteClasse\bin\Debug\net6.0\ExercicioTesteClasse.pdb
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\ExercicioTesteClasse\ExercicioTesteClasse\obj\Debug\net6.0\ExercicioTesteClasse.dll
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\ExercicioTesteClasse\ExercicioTesteClasse\obj\Debug\net6.0\refint\ExercicioTesteClasse.dll
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\ExercicioTesteClasse\ExercicioTesteClasse\obj\Debug\net6.0\ExercicioTesteClasse.pdb
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\ExercicioTesteClasse\ExercicioTesteClasse\obj\Debug\net6.0\ExercicioTesteClasse.genruntimeconfig.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\ExercicioTesteClasse\ExercicioTesteClasse\obj\Debug\net6.0\ref\ExercicioTesteClasse.dll

@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\herik\\Desktop\\gitAcademia\\backAnd\\Classes\\ExercicioTesteClasse\\ExercicioTesteClasse\\ExercicioTesteClasse.csproj",
-      "projectName": "ExercicioTesteClasse",
-      "projectPath": "C:\\Users\\herik\\Desktop\\gitAcademia\\backAnd\\Classes\\ExercicioTesteClasse\\ExercicioTesteClasse\\ExercicioTesteClasse.csproj",
+      "projectUniqueName": "C:\\Users\\herik\\Desktop\\gitAcademia\\backAnd\\Classes\\ExercicioTesteClasse\\ExercicioTesteClasse\\ExercicioTesteClasse1.csproj",
+      "projectName": "ExercicioTesteClasse1",
+      "projectPath": "C:\\Users\\herik\\Desktop\\gitAcademia\\backAnd\\Classes\\ExercicioTesteClasse\\ExercicioTesteClasse\\ExercicioTesteClasse1.csproj",
       "packagesPath": "C:\\Users\\herik\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\herik\\Desktop\\gitAcademia\\backAnd\\Classes\\ExercicioTesteClasse\\ExercicioTesteClasse\\obj\\",
       "projectStyle": "PackageReference",
