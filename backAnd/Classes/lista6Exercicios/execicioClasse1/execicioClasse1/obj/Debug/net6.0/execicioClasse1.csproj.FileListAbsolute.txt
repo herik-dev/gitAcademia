@@ -1,0 +1,15 @@
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\lista6Exercicios\execicioClasse1\execicioClasse1\bin\Debug\net6.0\execicioClasse1.exe
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\lista6Exercicios\execicioClasse1\execicioClasse1\bin\Debug\net6.0\execicioClasse1.deps.json
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\lista6Exercicios\execicioClasse1\execicioClasse1\bin\Debug\net6.0\execicioClasse1.runtimeconfig.json
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\lista6Exercicios\execicioClasse1\execicioClasse1\bin\Debug\net6.0\execicioClasse1.dll
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\lista6Exercicios\execicioClasse1\execicioClasse1\bin\Debug\net6.0\execicioClasse1.pdb
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\lista6Exercicios\execicioClasse1\execicioClasse1\obj\Debug\net6.0\execicioClasse1.csproj.AssemblyReference.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\lista6Exercicios\execicioClasse1\execicioClasse1\obj\Debug\net6.0\execicioClasse1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\lista6Exercicios\execicioClasse1\execicioClasse1\obj\Debug\net6.0\execicioClasse1.AssemblyInfoInputs.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\lista6Exercicios\execicioClasse1\execicioClasse1\obj\Debug\net6.0\execicioClasse1.AssemblyInfo.cs
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\lista6Exercicios\execicioClasse1\execicioClasse1\obj\Debug\net6.0\execicioClasse1.csproj.CoreCompileInputs.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\lista6Exercicios\execicioClasse1\execicioClasse1\obj\Debug\net6.0\execicioClasse1.dll
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\lista6Exercicios\execicioClasse1\execicioClasse1\obj\Debug\net6.0\refint\execicioClasse1.dll
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\lista6Exercicios\execicioClasse1\execicioClasse1\obj\Debug\net6.0\execicioClasse1.pdb
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\lista6Exercicios\execicioClasse1\execicioClasse1\obj\Debug\net6.0\execicioClasse1.genruntimeconfig.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\Classes\lista6Exercicios\execicioClasse1\execicioClasse1\obj\Debug\net6.0\ref\execicioClasse1.dll
