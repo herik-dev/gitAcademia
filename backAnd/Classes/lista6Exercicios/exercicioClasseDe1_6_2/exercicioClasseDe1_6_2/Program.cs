@@ -14,17 +14,16 @@ usuário armazene/leia os dados dos dois dados privados (propriedades).
 */
 
 using exercicioClasseDe1_6_2;
-/*
-this.nomeAnimal = nomeAnimal;
-this.tipoAnimal = tipoAnimal;
-this.contadorGato = contadorGato;
-this.contadorCachorro = contadorCachorro;
-this.contadorPeixe = contadorPeixe;
-*/
+
 
 Console.WriteLine("----------- Apresentando bicho de estimação -----------");
 string nomeAnimal = "", tipoAnimal = "";
 int contadorGato=0, contadorCachorro=0, contadorPeixe=0;
+
+AnimaisEstimacao m = new AnimaisEstimacao(nomeAnimal, tipoAnimal, contadorGato, contadorCachorro, contadorPeixe);
+m.mostraAnimal();
+
+/*
 for (int i = 1; i <= 5; i++)
 {
     ///<summary>
@@ -38,7 +37,8 @@ for (int i = 1; i <= 5; i++)
     /// </summary>
     Console.WriteLine("Digite a espécie do bicho: ");
     tipoAnimal = Console.ReadLine().ToLower();
-        
+    
+
     if (tipoAnimal == "gato" || tipoAnimal == "cachorro" || tipoAnimal == "peixe")
     {
             if (tipoAnimal == "gato")
@@ -64,9 +64,6 @@ for (int i = 1; i <= 5; i++)
 
 
 }
-
-
-    AnimaisEstimacao m = new AnimaisEstimacao(nomeAnimal, tipoAnimal , contadorGato, contadorCachorro, contadorPeixe);
-m.mostraAnimal();
+*/
 
 

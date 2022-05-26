@@ -34,17 +34,17 @@ namespace exercicioClasseDe1_6_2
         /// <summary>
         ///  Atributo que Armazena o contador dos gatos
         /// </summary>
-        public int contadorGato;
+        private int contadorGato;
 
         /// <summary>
         ///  Atributo que Armazena o contador dos cachorros
         /// </summary>
-        public int contadorCachorro;
+        private int contadorCachorro;
 
         /// <summary>
         ///  Atributo que Armazena o  contador dos peixes
         /// </summary>
-        public int contadorPeixe;
+        private int contadorPeixe;
 
         /// <summary>
         /// Construtor
@@ -56,18 +56,67 @@ namespace exercicioClasseDe1_6_2
         /// <param name="contadorPeixe"></param>
         public AnimaisEstimacao(string nomeAnimal, string tipoAnimal, int contadorGato, int contadorCachorro, int contadorPeixe)
         {
-            this.nomeAnimal = nomeAnimal;
-            this.tipoAnimal = tipoAnimal;
-            this.contadorGato = contadorGato;
-            this.contadorCachorro = contadorCachorro;
-            this.contadorPeixe = contadorPeixe;
+            this.NomeAnimal = nomeAnimal;
+            this.TipoAnimal = tipoAnimal;
+            this.ContadorGato = contadorGato;
+            this.ContadorCachorro = contadorCachorro;
+            this.ContadorPeixe = contadorPeixe;
         }
+
+        public string NomeAnimal { get => nomeAnimal; set => nomeAnimal = value; }
+        public string TipoAnimal { get => tipoAnimal; set => tipoAnimal = value; }
+        public int ContadorGato { get => contadorGato; set => contadorGato = value; }
+        public int ContadorCachorro { get => contadorCachorro; set => contadorCachorro = value; }
+        public int ContadorPeixe { get => contadorPeixe; set => contadorPeixe = value; }
+
         /// <summary>
         /// Método
         /// </summary>
         public void mostraAnimal()
         {
-            Console.WriteLine($"São:\n{contadorGato} gatos \n{contadorCachorro} cachorros\n{contadorPeixe} peixes.");
+
+            for (int i = 1; i <= 5; i++)
+            {
+                ///<summary>
+                /// Entrada de dados do nome de cada animal
+                /// </summary>
+                Console.WriteLine("Digite o nome do bicho: ");
+                NomeAnimal = Console.ReadLine();
+
+                ///<summary>
+                /// Entrada de tipo cada animal
+                /// </summary>
+                Console.WriteLine("Digite a espécie do bicho: ");
+                TipoAnimal = Console.ReadLine().ToLower();
+
+
+                if (TipoAnimal == "gato" || TipoAnimal == "cachorro" || TipoAnimal == "peixe")
+                {
+                    if (TipoAnimal == "gato")
+                    {
+                        ContadorGato++;
+                    }
+                    else if (TipoAnimal == "cachorro")
+                    {
+                        ContadorCachorro++;
+                    }
+                    else if (TipoAnimal == "peixe")
+                    {
+                        ContadorPeixe++;
+
+                    }
+                    Console.Clear();
+                }
+                else
+                {
+                    Console.WriteLine("Digite uma espécie válida (cachorro/gato/peixe).");
+                    i--;
+                }
+
+
+            }
+
+            Console.WriteLine($"São:\n{ContadorGato} gatos \n{ContadorCachorro} cachorros\n{ContadorPeixe} peixes.");
         }
     }
 }
