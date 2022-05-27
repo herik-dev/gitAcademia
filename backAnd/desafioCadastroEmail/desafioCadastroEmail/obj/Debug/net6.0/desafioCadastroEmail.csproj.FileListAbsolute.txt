@@ -1,0 +1,15 @@
+C:\Users\herik\Desktop\gitAcademia\backAnd\desafioCadastroEmail\desafioCadastroEmail\obj\Debug\net6.0\desafioCadastroEmail.csproj.AssemblyReference.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\desafioCadastroEmail\desafioCadastroEmail\obj\Debug\net6.0\desafioCadastroEmail.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\herik\Desktop\gitAcademia\backAnd\desafioCadastroEmail\desafioCadastroEmail\obj\Debug\net6.0\desafioCadastroEmail.AssemblyInfoInputs.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\desafioCadastroEmail\desafioCadastroEmail\obj\Debug\net6.0\desafioCadastroEmail.AssemblyInfo.cs
+C:\Users\herik\Desktop\gitAcademia\backAnd\desafioCadastroEmail\desafioCadastroEmail\obj\Debug\net6.0\desafioCadastroEmail.csproj.CoreCompileInputs.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\desafioCadastroEmail\desafioCadastroEmail\bin\Debug\net6.0\desafioCadastroEmail.exe
+C:\Users\herik\Desktop\gitAcademia\backAnd\desafioCadastroEmail\desafioCadastroEmail\bin\Debug\net6.0\desafioCadastroEmail.deps.json
+C:\Users\herik\Desktop\gitAcademia\backAnd\desafioCadastroEmail\desafioCadastroEmail\bin\Debug\net6.0\desafioCadastroEmail.runtimeconfig.json
+C:\Users\herik\Desktop\gitAcademia\backAnd\desafioCadastroEmail\desafioCadastroEmail\bin\Debug\net6.0\desafioCadastroEmail.dll
+C:\Users\herik\Desktop\gitAcademia\backAnd\desafioCadastroEmail\desafioCadastroEmail\bin\Debug\net6.0\desafioCadastroEmail.pdb
+C:\Users\herik\Desktop\gitAcademia\backAnd\desafioCadastroEmail\desafioCadastroEmail\obj\Debug\net6.0\desafioCadastroEmail.dll
+C:\Users\herik\Desktop\gitAcademia\backAnd\desafioCadastroEmail\desafioCadastroEmail\obj\Debug\net6.0\refint\desafioCadastroEmail.dll
+C:\Users\herik\Desktop\gitAcademia\backAnd\desafioCadastroEmail\desafioCadastroEmail\obj\Debug\net6.0\desafioCadastroEmail.pdb
+C:\Users\herik\Desktop\gitAcademia\backAnd\desafioCadastroEmail\desafioCadastroEmail\obj\Debug\net6.0\desafioCadastroEmail.genruntimeconfig.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\desafioCadastroEmail\desafioCadastroEmail\obj\Debug\net6.0\ref\desafioCadastroEmail.dll
