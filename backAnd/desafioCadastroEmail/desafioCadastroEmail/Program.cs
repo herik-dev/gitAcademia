@@ -26,12 +26,10 @@
 
 // Opção:
 
-
-
-
 //StreamReader, StreamWriter, List, Usuario
 
 //popular a lista com dados do arquivo
+
 
 /// <summary>
 /// Chamando a classe apropriada para o sistema

@@ -1,0 +1,15 @@
+C:\Users\herik\Desktop\gitAcademia\backAnd\desafioCadastroCarro\desafioCadastroCarro\obj\Debug\net6.0\desafioCadastroCarro.csproj.AssemblyReference.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\desafioCadastroCarro\desafioCadastroCarro\obj\Debug\net6.0\desafioCadastroCarro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\herik\Desktop\gitAcademia\backAnd\desafioCadastroCarro\desafioCadastroCarro\obj\Debug\net6.0\desafioCadastroCarro.AssemblyInfoInputs.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\desafioCadastroCarro\desafioCadastroCarro\obj\Debug\net6.0\desafioCadastroCarro.AssemblyInfo.cs
+C:\Users\herik\Desktop\gitAcademia\backAnd\desafioCadastroCarro\desafioCadastroCarro\obj\Debug\net6.0\desafioCadastroCarro.csproj.CoreCompileInputs.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\desafioCadastroCarro\desafioCadastroCarro\bin\Debug\net6.0\desafioCadastroCarro.exe
+C:\Users\herik\Desktop\gitAcademia\backAnd\desafioCadastroCarro\desafioCadastroCarro\bin\Debug\net6.0\desafioCadastroCarro.deps.json
+C:\Users\herik\Desktop\gitAcademia\backAnd\desafioCadastroCarro\desafioCadastroCarro\bin\Debug\net6.0\desafioCadastroCarro.runtimeconfig.json
+C:\Users\herik\Desktop\gitAcademia\backAnd\desafioCadastroCarro\desafioCadastroCarro\bin\Debug\net6.0\desafioCadastroCarro.dll
+C:\Users\herik\Desktop\gitAcademia\backAnd\desafioCadastroCarro\desafioCadastroCarro\bin\Debug\net6.0\desafioCadastroCarro.pdb
+C:\Users\herik\Desktop\gitAcademia\backAnd\desafioCadastroCarro\desafioCadastroCarro\obj\Debug\net6.0\desafioCadastroCarro.dll
+C:\Users\herik\Desktop\gitAcademia\backAnd\desafioCadastroCarro\desafioCadastroCarro\obj\Debug\net6.0\refint\desafioCadastroCarro.dll
+C:\Users\herik\Desktop\gitAcademia\backAnd\desafioCadastroCarro\desafioCadastroCarro\obj\Debug\net6.0\desafioCadastroCarro.pdb
+C:\Users\herik\Desktop\gitAcademia\backAnd\desafioCadastroCarro\desafioCadastroCarro\obj\Debug\net6.0\desafioCadastroCarro.genruntimeconfig.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\desafioCadastroCarro\desafioCadastroCarro\obj\Debug\net6.0\ref\desafioCadastroCarro.dll
