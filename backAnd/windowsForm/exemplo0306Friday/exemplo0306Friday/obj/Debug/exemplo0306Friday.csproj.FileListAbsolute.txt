@@ -1,0 +1,11 @@
+C:\Users\herik\Desktop\gitAcademia\backAnd\windowsForm\exemplo0306Friday\exemplo0306Friday\bin\Debug\exemplo0306Friday.exe.config
+C:\Users\herik\Desktop\gitAcademia\backAnd\windowsForm\exemplo0306Friday\exemplo0306Friday\bin\Debug\exemplo0306Friday.exe
+C:\Users\herik\Desktop\gitAcademia\backAnd\windowsForm\exemplo0306Friday\exemplo0306Friday\bin\Debug\exemplo0306Friday.pdb
+C:\Users\herik\Desktop\gitAcademia\backAnd\windowsForm\exemplo0306Friday\exemplo0306Friday\obj\Debug\exemplo0306Friday.csproj.AssemblyReference.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\windowsForm\exemplo0306Friday\exemplo0306Friday\obj\Debug\exemplo0306Friday.csproj.SuggestedBindingRedirects.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\windowsForm\exemplo0306Friday\exemplo0306Friday\obj\Debug\exemplo0306Friday.Form1.resources
+C:\Users\herik\Desktop\gitAcademia\backAnd\windowsForm\exemplo0306Friday\exemplo0306Friday\obj\Debug\exemplo0306Friday.Properties.Resources.resources
+C:\Users\herik\Desktop\gitAcademia\backAnd\windowsForm\exemplo0306Friday\exemplo0306Friday\obj\Debug\exemplo0306Friday.csproj.GenerateResource.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\windowsForm\exemplo0306Friday\exemplo0306Friday\obj\Debug\exemplo0306Friday.csproj.CoreCompileInputs.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\windowsForm\exemplo0306Friday\exemplo0306Friday\obj\Debug\exemplo0306Friday.exe
+C:\Users\herik\Desktop\gitAcademia\backAnd\windowsForm\exemplo0306Friday\exemplo0306Friday\obj\Debug\exemplo0306Friday.pdb

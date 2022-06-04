@@ -55,7 +55,7 @@ namespace desafioCadastroCarro
         public static void cadastrarVeiculo(List<Veiculo> lista)
         {
             string placa;
-            DateTime data;
+            DateTime data = DateTime.Now;
             Console.WriteLine("Digite a placa do veiculo: ");
             placa = Console.ReadLine();
             Console.WriteLine("Digite a data e horário de entrada do veiculo, conforme padrão brasileiro: ");

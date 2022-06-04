@@ -1,0 +1,11 @@
+C:\Users\herik\Desktop\gitAcademia\backAnd\windowsForm\primeiroExemploWindowsForm\primeiroExemploWindowsForm\bin\Debug\primeiroExemploWindowsForm.exe.config
+C:\Users\herik\Desktop\gitAcademia\backAnd\windowsForm\primeiroExemploWindowsForm\primeiroExemploWindowsForm\bin\Debug\primeiroExemploWindowsForm.exe
+C:\Users\herik\Desktop\gitAcademia\backAnd\windowsForm\primeiroExemploWindowsForm\primeiroExemploWindowsForm\bin\Debug\primeiroExemploWindowsForm.pdb
+C:\Users\herik\Desktop\gitAcademia\backAnd\windowsForm\primeiroExemploWindowsForm\primeiroExemploWindowsForm\obj\Debug\primeiroExemploWindowsForm.csproj.AssemblyReference.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\windowsForm\primeiroExemploWindowsForm\primeiroExemploWindowsForm\obj\Debug\primeiroExemploWindowsForm.csproj.SuggestedBindingRedirects.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\windowsForm\primeiroExemploWindowsForm\primeiroExemploWindowsForm\obj\Debug\primeiroExemploWindowsForm.Properties.Resources.resources
+C:\Users\herik\Desktop\gitAcademia\backAnd\windowsForm\primeiroExemploWindowsForm\primeiroExemploWindowsForm\obj\Debug\primeiroExemploWindowsForm.csproj.GenerateResource.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\windowsForm\primeiroExemploWindowsForm\primeiroExemploWindowsForm\obj\Debug\primeiroExemploWindowsForm.csproj.CoreCompileInputs.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\windowsForm\primeiroExemploWindowsForm\primeiroExemploWindowsForm\obj\Debug\primeiroExemploWindowsForm.exe
+C:\Users\herik\Desktop\gitAcademia\backAnd\windowsForm\primeiroExemploWindowsForm\primeiroExemploWindowsForm\obj\Debug\primeiroExemploWindowsForm.pdb
+C:\Users\herik\Desktop\gitAcademia\backAnd\windowsForm\primeiroExemploWindowsForm\primeiroExemploWindowsForm\obj\Debug\primeiroExemploWindowsForm.btOk.resources
