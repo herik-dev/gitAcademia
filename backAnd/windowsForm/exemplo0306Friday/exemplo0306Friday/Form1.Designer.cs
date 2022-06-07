@@ -58,7 +58,6 @@
             this.btSalvar.TabIndex = 1;
             this.btSalvar.Text = "Salvar";
             this.btSalvar.UseVisualStyleBackColor = true;
-            this.btSalvar.Click += new System.EventHandler(this.btSalvar_Click);
             // 
             // lblModeloCarro
             // 
