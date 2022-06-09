@@ -3,9 +3,10 @@ C:\Users\herik\Desktop\gitAcademia\backAnd\windowsForm\exercicio1_03_06_2022\exe
 C:\Users\herik\Desktop\gitAcademia\backAnd\windowsForm\exercicio1_03_06_2022\exercicio1_03_06_2022\bin\Debug\exercicio1_03_06_2022.pdb
 C:\Users\herik\Desktop\gitAcademia\backAnd\windowsForm\exercicio1_03_06_2022\exercicio1_03_06_2022\obj\Debug\exercicio1_03_06_2022.csproj.AssemblyReference.cache
 C:\Users\herik\Desktop\gitAcademia\backAnd\windowsForm\exercicio1_03_06_2022\exercicio1_03_06_2022\obj\Debug\exercicio1_03_06_2022.csproj.SuggestedBindingRedirects.cache
-C:\Users\herik\Desktop\gitAcademia\backAnd\windowsForm\exercicio1_03_06_2022\exercicio1_03_06_2022\obj\Debug\exercicio1_03_06_2022.Form1.resources
 C:\Users\herik\Desktop\gitAcademia\backAnd\windowsForm\exercicio1_03_06_2022\exercicio1_03_06_2022\obj\Debug\exercicio1_03_06_2022.Properties.Resources.resources
 C:\Users\herik\Desktop\gitAcademia\backAnd\windowsForm\exercicio1_03_06_2022\exercicio1_03_06_2022\obj\Debug\exercicio1_03_06_2022.csproj.GenerateResource.cache
 C:\Users\herik\Desktop\gitAcademia\backAnd\windowsForm\exercicio1_03_06_2022\exercicio1_03_06_2022\obj\Debug\exercicio1_03_06_2022.csproj.CoreCompileInputs.cache
 C:\Users\herik\Desktop\gitAcademia\backAnd\windowsForm\exercicio1_03_06_2022\exercicio1_03_06_2022\obj\Debug\exercicio1_03_06_2022.exe
 C:\Users\herik\Desktop\gitAcademia\backAnd\windowsForm\exercicio1_03_06_2022\exercicio1_03_06_2022\obj\Debug\exercicio1_03_06_2022.pdb
+C:\Users\herik\Desktop\gitAcademia\backAnd\windowsForm\exercicio1_03_06_2022\exercicio1_03_06_2022\obj\Debug\exercicio1_03_06_2022.Principal.resources
+C:\Users\herik\Desktop\gitAcademia\backAnd\windowsForm\exercicio1_03_06_2022\exercicio1_03_06_2022\obj\Debug\exercicio1_03_06_2022.fmCadastro.resources

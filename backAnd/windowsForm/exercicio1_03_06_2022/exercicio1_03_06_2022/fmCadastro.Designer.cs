@@ -1,6 +1,6 @@
 ﻿namespace exercicio1_03_06_2022
 {
-    partial class Form1
+    partial class fmCadastro
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -123,6 +123,7 @@
             this.tbNome.Name = "tbNome";
             this.tbNome.Size = new System.Drawing.Size(288, 20);
             this.tbNome.TabIndex = 8;
+            this.tbNome.TextChanged += new System.EventHandler(this.tbNome_TextChanged);
             // 
             // tbTelefone
             // 
@@ -205,7 +206,7 @@
             this.lblCadastrarUsuario.Text = "Cadastrar usuário";
             this.lblCadastrarUsuario.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
-            // Form1
+            // fmCadastro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -229,8 +230,8 @@
             this.Controls.Add(this.lblTelefone);
             this.Controls.Add(this.lblNome);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "fmCadastro";
+            this.Text = "Cadastro de Pessoas";
             this.ResumeLayout(false);
             this.PerformLayout();
 

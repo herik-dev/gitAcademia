@@ -1,0 +1,17 @@
+.container {
+    background-color: rgb(25, 0, 255);
+    border-radius: 10px;
+    height: 305px;
+    width: 400px;
+}
+
+.elemento {
+    background-color: rgb(255, 1, 0);
+    border: 10px;
+    height: 200px;
+    width: 200px;    
+    width: 100px;
+    height: 50px;
+    margin-bottom: 35px;
+    text-align:center;
+}

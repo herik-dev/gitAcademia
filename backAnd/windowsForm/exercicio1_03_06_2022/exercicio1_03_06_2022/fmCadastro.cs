@@ -11,9 +11,9 @@ using System.Security.Cryptography;
 
 namespace exercicio1_03_06_2022
 {
-    public partial class Form1 : Form
+    public partial class fmCadastro : Form
     {
-        public Form1()
+        public fmCadastro()
         {
             InitializeComponent();
         }
@@ -53,7 +53,13 @@ namespace exercicio1_03_06_2022
             }
 
             Cadastro c = new Cadastro(tbNome.Text, tbTelefone.Text, tbCPF.Text, tbLogin.Text, tbSenha.Text, status, tipo);
-            c.MostrarDadosCadastrados();
+            cadastro.Add(c);
+            //c.MostrarDadosCadastrados();
+        }
+
+        private void tbNome_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
