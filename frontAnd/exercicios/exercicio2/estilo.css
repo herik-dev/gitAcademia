@@ -1,17 +1,28 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
 .container {
-    background-color: rgb(25, 0, 255);
-    border-radius: 10px;
-    height: 305px;
+    
+    height: 300px;
     width: 400px;
+    background-color: rgb(25, 0, 255);
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-radius: 30px;
+    overflow:  hidden;
 }
 
 .elemento {
-    background-color: rgb(255, 1, 0);
-    border: 10px;
-    height: 200px;
-    width: 200px;    
+    height: 50px; 
     width: 100px;
-    height: 50px;
-    margin-bottom: 35px;
-    text-align:center;
+    background-color: rgb(255, 1, 0);
+    text-align: center;
+    line-height: 50px;
+    overflow: hidden;
+    
 }
