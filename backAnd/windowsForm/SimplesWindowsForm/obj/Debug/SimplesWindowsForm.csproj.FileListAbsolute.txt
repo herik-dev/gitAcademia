@@ -1,0 +1,11 @@
+C:\Users\herik\Desktop\gitAcademia\backAnd\windowsForm\SimplesWindowsForm\bin\Debug\SimplesWindowsForm.exe.config
+C:\Users\herik\Desktop\gitAcademia\backAnd\windowsForm\SimplesWindowsForm\bin\Debug\SimplesWindowsForm.exe
+C:\Users\herik\Desktop\gitAcademia\backAnd\windowsForm\SimplesWindowsForm\bin\Debug\SimplesWindowsForm.pdb
+C:\Users\herik\Desktop\gitAcademia\backAnd\windowsForm\SimplesWindowsForm\obj\Debug\SimplesWindowsForm.csproj.AssemblyReference.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\windowsForm\SimplesWindowsForm\obj\Debug\SimplesWindowsForm.csproj.SuggestedBindingRedirects.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\windowsForm\SimplesWindowsForm\obj\Debug\SimplesWindowsForm.Properties.Resources.resources
+C:\Users\herik\Desktop\gitAcademia\backAnd\windowsForm\SimplesWindowsForm\obj\Debug\SimplesWindowsForm.csproj.GenerateResource.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\windowsForm\SimplesWindowsForm\obj\Debug\SimplesWindowsForm.csproj.CoreCompileInputs.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\windowsForm\SimplesWindowsForm\obj\Debug\SimplesWindowsForm.exe
+C:\Users\herik\Desktop\gitAcademia\backAnd\windowsForm\SimplesWindowsForm\obj\Debug\SimplesWindowsForm.pdb
+C:\Users\herik\Desktop\gitAcademia\backAnd\windowsForm\SimplesWindowsForm\obj\Debug\SimplesWindowsForm.Cadastro.resources
