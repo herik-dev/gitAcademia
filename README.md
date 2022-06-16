@@ -17,6 +17,7 @@ Aulas ministradas pelos professores:
 **BackAnd**
 **Alexandre Zamberlan** - https://github.com/alexandrezamberlan
 
+**BackAnd**
 **Ricardo Frohlich da Silva** - https://github.com/ricardosma
 
 **FrontAnd**
