@@ -7,6 +7,8 @@ Os conteúdos abrangem desenvolvimento BackAnd, FrontAnd, ferramentas de version
 Conteúdo abrangido até o momento:
 * Linguagem estruturada e OOP em C#;
 * .Net framerwork 6.0;
+* Windows Forms;
+* SQL SERVER;
 * HTML 5;
 * CSS;
 * Git e
