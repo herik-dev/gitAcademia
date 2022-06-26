@@ -19,6 +19,9 @@ namespace usuarioFormsBD
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Botão para retornar a janela de consulta
+        /// </summary>
         private void button_voltarConsulta_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -31,29 +34,45 @@ namespace usuarioFormsBD
             Application.Run(new Consulta());
         }
 
-
+        /// <summary>
+        /// Botão para retornar Cadastrar usuario
+        /// </summary>
         private void button_Cadastrar_Click(object sender, EventArgs e)
         {
+            string nomeCompleto = textBox_nomeCompleto.Text;
+            Consulta cadastro = new Consulta();
+
+            string sqlTexto = "SELECT  idUsuario, nomeCompleto, email  from usuarios";
+            SqlCommand comando = new SqlCommand(sqlTexto, conexao);
+
+            listView_Consulta.Items.Clear();
+            SqlDataReader leitor = comando.ExecuteReader();
+            int i = 0;
+            while (leitor.Read())
+            {
+                listView_Consulta.Items.Add(leitor["idUsuario"].ToString());
+                listView_Consulta.Items[i].SubItems.Add(leitor["nomeCompleto"].ToString());
+                listView_Consulta.Items[i].SubItems.Add(leitor["email"].ToString());
+                i++;
+            }
+            conexao.Close();
+
 
         }
+            catch (Exception e)
+            {
+                MessageBox.Show("Problemas de conexão com o Banco de Dados " + e.ToString(), "Alerta");
+            }
 
+}
+
+        /// <summary>
+        /// Botão para limpar o conteúdo do Text Box
+        /// </summary>
         private void button_Limpar_Click(object sender, EventArgs e)
         {
             textBox_nomeCompleto.Clear();
         }
-        /*private void Limpar()
-        {
-            Action<Control.ControlCollection> funcao = null;
-            funcao = (controls) =>
-            {
-                foreach (Control control in controls)
-                    if (control is TextBox)
-                        (control as TextBox).Clear();
-                    else
-                        funcao(control.Controls);
-            }
-            funcao(Controls);
-        }
-        */
+
     }
 }

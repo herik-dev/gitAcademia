@@ -19,6 +19,15 @@ namespace usuarioFormsBD
             this.email = email;
         }
 
+        public bool addPessoa()
+        {
+            Consulta consulta = new Consulta();
+            string[] vetorDados = this.nomeCompleto.Split(' ');
+            this.email = vetorDados[vetorDados.Length - 1] + "." + vetorDados[0] + "@atos.net";
+            this.email = this.email.ToLower();
+            L
+        }
+
 
  
     }
