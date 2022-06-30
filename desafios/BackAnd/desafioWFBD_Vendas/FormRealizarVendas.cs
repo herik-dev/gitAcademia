@@ -1,13 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Data.SqlClient;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+
 
 namespace desafioWFBD_Vendas
 {
@@ -16,10 +10,69 @@ namespace desafioWFBD_Vendas
         public FormRealizarVendas()
         {
             InitializeComponent();
-            string stringConexao = "Data Source=VIRUS\\SQLEXPRESS;Initial Catalog=usuarios_db;TrustServerCertificate=True;Integrated Security=True";
+            this.vendaTableAdapter.Fill(this.desafiovendas_dbDataSet.Venda);
+            this.clienteTableAdapter.Fill(this.desafiovendas_dbDataSet.Cliente);
+            this.produtoTableAdapter.Fill(this.desafiovendas_dbDataSet.Produto);
+
+        }
+        string stringConexao = "Data Source=VIRUS\\SQLEXPRESS;Initial Catalog=desafiovendas_db;TrustServerCertificate=True;Integrated Security=True";
+
+        private void btRealizarVenda_Click(object sender, EventArgs e)
+        {
 
             SqlConnection conexao = new SqlConnection(stringConexao);
-            conexao.Open();
+
+            try
+            {
+                //SqlConnection conexao = new SqlConnection("Data Source=VIRUS\\SQLEXPRESS;Initial Catalog=desafiovendas_db;TrustServerCertificate=True;Integrated Security=True");
+                conexao.Open();
+
+
+                string sqlTexto = "INSERT INTO Venda(valorTotal, nomeCliente, NomeProduto) VALUES (@valorTotal, @nomeCliente, @NomeProduto)";
+                float test = float.Parse("SELECT preco FROM Pr");
+                SqlCommand comando = new SqlCommand(sqlTexto, conexao);
+                
+                float total = float.Parse(tbQuantidade.Text) * preco;
+
+                //Insere os dados dos TextBox no comando SQL
+                comando.Parameters.Add(new SqlParameter("@valorTotal", total));
+                comando.Parameters.Add(new SqlParameter("@nomeCliente", this.cbCliente.Text));
+                comando.Parameters.Add(new SqlParameter("@NomeProduto", this.cbNome.Text));
+
+                comando.ExecuteNonQuery();
+                conexao.Close();
+                this.vendaTableAdapter.Fill(this.desafiovendas_dbDataSet.Venda);
+                this.clienteTableAdapter.Fill(this.desafiovendas_dbDataSet.Cliente);
+                this.produtoTableAdapter.Fill(this.desafiovendas_dbDataSet.Produto);
+                MessageBox.Show("Conexão bem sucedida");
+            }
+            catch (Exception erro)
+            {
+                MessageBox.Show(erro.Message);
+            }
+           // finally
+        //    {
+            //    conexao.Close();
+           // }
+
+
+
+        }
+
+        private void fillToolStripButton_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                this.clienteTableAdapter.Fill(this.desafiovendas_dbDataSet.Cliente);
+            }
+            catch (System.Exception ex)
+            {
+                System.Windows.Forms.MessageBox.Show(ex.Message);
+            }
+
         }
     }
+
+
+        
 }

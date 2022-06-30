@@ -64,7 +64,7 @@
             // btRealizarVendas
             // 
             this.btRealizarVendas.BackColor = System.Drawing.Color.White;
-            this.btRealizarVendas.Location = new System.Drawing.Point(2, 253);
+            this.btRealizarVendas.Location = new System.Drawing.Point(2, 260);
             this.btRealizarVendas.Name = "btRealizarVendas";
             this.btRealizarVendas.Size = new System.Drawing.Size(196, 58);
             this.btRealizarVendas.TabIndex = 4;
@@ -75,7 +75,7 @@
             // btCadastarProdutos
             // 
             this.btCadastarProdutos.BackColor = System.Drawing.Color.White;
-            this.btCadastarProdutos.Location = new System.Drawing.Point(2, 163);
+            this.btCadastarProdutos.Location = new System.Drawing.Point(2, 170);
             this.btCadastarProdutos.Name = "btCadastarProdutos";
             this.btCadastarProdutos.Size = new System.Drawing.Size(196, 58);
             this.btCadastarProdutos.TabIndex = 3;
@@ -86,7 +86,7 @@
             // btCadastrarCliente
             // 
             this.btCadastrarCliente.BackColor = System.Drawing.Color.White;
-            this.btCadastrarCliente.Location = new System.Drawing.Point(2, 73);
+            this.btCadastrarCliente.Location = new System.Drawing.Point(2, 80);
             this.btCadastrarCliente.Name = "btCadastrarCliente";
             this.btCadastrarCliente.Size = new System.Drawing.Size(196, 58);
             this.btCadastrarCliente.TabIndex = 2;

@@ -19,7 +19,10 @@ namespace desafioWFBD_Vendas
         public FormTelaPrincipal()
         {
             InitializeComponent();
-     
+            string stringConexao = "Data Source=VIRUS\\SQLEXPRESS;Initial Catalog=desafiovendas_db;TrustServerCertificate=True;Integrated Security=True";
+
+            SqlConnection conexao = new SqlConnection(stringConexao);
+            conexao.Open();
         }
 
         /* Botão cadastro de clientes, chamando tela de cadastro do cliente */
@@ -58,9 +61,12 @@ namespace desafioWFBD_Vendas
             add.SetApartmentState(ApartmentState.STA);
             add.Start();
         }
+
         private void abrirRealizarVendas(object obj)
         {
-            Application.Run(new FormRealizarVendas());
+            Application.Run(new FormRealizarVenda1());
         }
+
+
     }
 }

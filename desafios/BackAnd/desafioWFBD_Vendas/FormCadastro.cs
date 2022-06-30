@@ -63,6 +63,7 @@ namespace desafioWFBD_Vendas
                 tbNome.Text = "";
                 tbTelefone.Text = "";
                 tbEmail.Text = "";
+                this.clienteTableAdapter.Fill(this.desafiovendas_dbDataSet.Cliente);
             }
             catch (Exception erro)
             {
@@ -79,6 +80,13 @@ namespace desafioWFBD_Vendas
             tbNome.Text = "";
             tbTelefone.Text = "";
             tbEmail.Text = "";
+        }
+
+        private void FormCadastro_Load(object sender, EventArgs e)
+        {
+            // TODO: esta linha de código carrega dados na tabela 'desafiovendas_dbDataSet.Cliente'. Você pode movê-la ou removê-la conforme necessário.
+            this.clienteTableAdapter.Fill(this.desafiovendas_dbDataSet.Cliente);
+
         }
     }
 }

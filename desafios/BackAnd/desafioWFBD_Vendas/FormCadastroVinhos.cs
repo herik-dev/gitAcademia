@@ -18,7 +18,8 @@ namespace desafioWFBD_Vendas
         public FormCadastroVinhos()
         {
             InitializeComponent();
-            string stringConexao = "Data Source=VIRUS\\SQLEXPRESS;Initial Catalog=usuarios_db;TrustServerCertificate=True;Integrated Security=True";
+
+            string stringConexao = "Data Source=VIRUS\\SQLEXPRESS;Initial Catalog=desafiovendas_db;TrustServerCertificate=True;Integrated Security=True";
 
             SqlConnection conexao = new SqlConnection(stringConexao);
             conexao.Open();
@@ -29,10 +30,8 @@ namespace desafioWFBD_Vendas
 
             // String de conexão
             SqlConnection conexao = new SqlConnection("Data Source=VIRUS\\SQLEXPRESS;Initial Catalog=desafiovendas_db;TrustServerCertificate=True;Integrated Security=True");
-       
 
-
-
+            float teste = float.Parse(tbPreco.Text);
 
             //gerar sentenças SQL
             string sqlTexto = "INSERT INTO Produto(idProduto, nome, categoria, codEAN, preco, estoque) VALUES (@idProduto, @nome, @categoria, @codEAN, @preco, @estoque)";
@@ -49,9 +48,9 @@ namespace desafioWFBD_Vendas
                 comando.Parameters.Add(new SqlParameter("@idProduto", numeroID.Next()));
                 comando.Parameters.Add(new SqlParameter("@nome", this.tbNomeProduto.Text));       
                 comando.Parameters.Add(new SqlParameter("@categoria", this.tbCategoria.Text));
-                comando.Parameters.Add(new SqlParameter("@codEAN", this.tbCodEAN.Text));
-                comando.Parameters.Add(new SqlParameter("@preco", this.mtbPreco.Text));
-                comando.Parameters.Add(new SqlParameter("@estoque", this.mtbEstoque.Text));
+                comando.Parameters.Add(new SqlParameter("@codEAN", this.mtbCodEAN.Text));
+                comando.Parameters.Add(new SqlParameter("@preco", float.Parse(this.tbPreco.Text)));
+                comando.Parameters.Add(new SqlParameter("@estoque", this.tbEstoque.Text));
 
                 //Abrindo conexao com o banco de dados
                 conexao.Open();
@@ -66,9 +65,10 @@ namespace desafioWFBD_Vendas
                 MessageBox.Show("Cadastro efetuado com sucesso!");
                 tbNomeProduto.Text = "";
                 tbCategoria.Text = "";
-                tbCodEAN.Text = "";
-                mtbPreco.Text = "";
-                mtbEstoque.Text = "";
+                tbPreco.Text = "";
+                mtbCodEAN.Text = "";
+                tbEstoque.Text = "";
+                this.produtoTableAdapter.Fill(this.desafiovendas_dbDataSet.Produto);
             }
             catch (Exception erro)
             {
@@ -84,9 +84,16 @@ namespace desafioWFBD_Vendas
         {
             tbNomeProduto.Text = "";
             tbCategoria.Text = "";
-            tbCodEAN.Text = "";
-            mtbPreco.Text = "";
-            mtbEstoque.Text = "";
+            tbPreco.Text = "";
+            mtbCodEAN.Text = "";
+            tbEstoque.Text = "";
+        }
+
+        private void FormCadastroVinhos_Load(object sender, EventArgs e)
+        {
+            // TODO: esta linha de código carrega dados na tabela 'desafiovendas_dbDataSet.Produto'. Você pode movê-la ou removê-la conforme necessário.
+            this.produtoTableAdapter.Fill(this.desafiovendas_dbDataSet.Produto);
+
         }
     }
 }

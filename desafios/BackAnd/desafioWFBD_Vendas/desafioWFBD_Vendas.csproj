@@ -167,6 +167,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Banco.cs" />
+    <Compile Include="desafiovendas_dbDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>desafiovendas_dbDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="FormCadastro.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -214,6 +219,17 @@
     <EmbeddedResource Include="FormRealizarVendas.resx">
       <DependentUpon>FormRealizarVendas.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="desafiovendas_dbDataSet.xsc">
+      <DependentUpon>desafiovendas_dbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="desafiovendas_dbDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>desafiovendas_dbDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="desafiovendas_dbDataSet.xss">
+      <DependentUpon>desafiovendas_dbDataSet.xsd</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
