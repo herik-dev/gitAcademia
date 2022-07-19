@@ -60,6 +60,7 @@ namespace usuarioFormsBD
             button_conectarBD.Enabled = false;
         }
 
+        //Botão para chamar a janela adicionario Usuarios
         private void button_adicionarUsuari_Click(object sender, EventArgs e)
         {
             this.Close();

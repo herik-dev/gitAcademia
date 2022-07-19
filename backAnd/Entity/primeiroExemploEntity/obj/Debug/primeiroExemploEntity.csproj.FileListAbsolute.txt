@@ -1,0 +1,15 @@
+C:\Users\herik\Desktop\gitAcademia\backAnd\Entity\primeiroExemploEntity\obj\Debug\primeiroExemploEntity.csproj.AssemblyReference.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\Entity\primeiroExemploEntity\obj\Debug\primeiroExemploEntity.csproj.SuggestedBindingRedirects.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\Entity\primeiroExemploEntity\obj\Debug\primeiroExemploEntity.csproj.CoreCompileInputs.cache
+C:\Users\herik\Desktop\gitAcademia\backAnd\Entity\primeiroExemploEntity\bin\Debug\primeiroExemploEntity.exe.config
+C:\Users\herik\Desktop\gitAcademia\backAnd\Entity\primeiroExemploEntity\bin\Debug\primeiroExemploEntity.exe
+C:\Users\herik\Desktop\gitAcademia\backAnd\Entity\primeiroExemploEntity\bin\Debug\primeiroExemploEntity.pdb
+C:\Users\herik\Desktop\gitAcademia\backAnd\Entity\primeiroExemploEntity\bin\Debug\EntityFramework.dll
+C:\Users\herik\Desktop\gitAcademia\backAnd\Entity\primeiroExemploEntity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\herik\Desktop\gitAcademia\backAnd\Entity\primeiroExemploEntity\bin\Debug\EntityFramework.xml
+C:\Users\herik\Desktop\gitAcademia\backAnd\Entity\primeiroExemploEntity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\herik\Desktop\gitAcademia\backAnd\Entity\primeiroExemploEntity\obj\Debug\primeiroExemploEntity.csproj.CopyComplete
+C:\Users\herik\Desktop\gitAcademia\backAnd\Entity\primeiroExemploEntity\obj\Debug\primeiroExemploEntity.exe
+C:\Users\herik\Desktop\gitAcademia\backAnd\Entity\primeiroExemploEntity\obj\Debug\primeiroExemploEntity.pdb
+C:\Users\herik\Desktop\gitAcademia\backAnd\Entity\primeiroExemploEntity\obj\Debug\primeiroExemploEntity.Migrations.InitialCreate.resources
+C:\Users\herik\Desktop\gitAcademia\backAnd\Entity\primeiroExemploEntity\obj\Debug\primeiroExemploEntity.csproj.GenerateResource.cache

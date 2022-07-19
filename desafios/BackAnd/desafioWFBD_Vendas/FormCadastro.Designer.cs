@@ -225,7 +225,6 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "FormCadastro";
             this.Text = "Cadastro de Clientes";
-            this.Load += new System.EventHandler(this.FormCadastro_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.clienteBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.desafiovendas_dbDataSet)).EndInit();

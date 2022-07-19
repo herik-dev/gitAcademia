@@ -1,0 +1,290 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo.css">   
+    <script defer src="formulario.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="col">
+        <h1 class="text-center"> Site para realizar cadastro</h1>
+        <h6 class="text-center"> Desafio desenvolvido  para conclusão do desafio FrontAnd</h6>
+    </div>
+
+<form id="form-cadastro">
+    <div class="card">
+        <div class="card-body">
+
+                <div class="row">
+                        <!-- Campo de cadastro do nome-->
+                        <div class="col-3">
+
+                            <div class="form-group">
+                                <label for="nome">Nome:</label>
+                                <input id="nome" class="form-control" type="text" name="nome" placeholder="Digite primeiro nome...">
+                            </div>
+                            </form>
+                        </div>
+
+                <!-- Campo de cadastro do sobrenome -->
+                    <div class="col-9">
+                        <div class="form-group">
+                            <label for="sobrenome">Sobrenome:</label>
+                            <input class="form-control" type="text" name="sobrenome" id="sobrenome" placeholder="Digite o seu sobrenome...">
+                        </div>
+
+                    </div> 
+                </div><!--DIV row nome e sobrenome-->
+                
+                <!-- Campo de cadastro do email, login e senha-->
+                <div class="row">
+                    <div class="col-3">
+                        <!-- Campo de cadastro do e-mail-->
+                        <div class="form-group">
+                            <label for="Email">E-mail:</label>
+                            <input class="form-control" type="email" name="email" id="email" placeholder="Digite o seu e-mail...">
+                        </div>
+                    </div>
+
+                    <div class="col-2"></div> <!--Espaçamento entre os forms-->
+                    <!-- Campo de cadastro do sobrenome-->
+                    <div class="col-3">
+                        <div class="form-group">
+                            <label for="login">Login:</label>
+                            <input class="form-control" type="text" name="login" autocomplete="on" id="login" readonly >
+                        </div>
+                    </div>
+                        
+                            <!-- Campo de cadastro da senha-->
+                    <div class="col-4">
+                        <div class="form-group">
+                            <label for="senha">Senha:</label>
+                            <input class="form-control" type="password" name="senha" id="senha" placeholder="Digite sua senha...">
+                        </div><!--classe typo password, esconde a senha-->
+                    </div> 
+                </div><!--DIV row e-mail e login -->
+
+                        <!-- Campo de cadastro do CEP, endereço e complemento-->
+                <div class="row">
+
+                    <div class="col-2">
+
+                        <div class="form-group">
+                            <label for="cep">CEP:</label>
+                            <input class="form-control" type="text" name="cep" id="cep" placeholder="Digite o CEP...">
+                        </div>
+
+                    </div> 
+                    
+                    <!-- Campo de cadastro do endereço-->
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label for="endereco">Endereço:</label>
+                            <input class="form-control" type="text" name="endereco" id="endereco" placeholder="Digite o endereço...">
+                        </div>
+
+                    </div> 
+                                
+                    <!-- Campo de cadastro do complemento-->
+                    <div class="col-4">
+
+                        <div class="form-group">
+                            <label for="complemento">Complemento:</label>
+                            <input class="form-control" type="text" name="complemento" id="complemento" placeholder="Digite o complemento...">
+                        </div>
+
+                    </div> 
+                </div><!--DIV row CEP, endereço e complemento -->
+
+                    <!-- Campo de cadastro do bairro, cidade e estado-->
+
+                <div class="row">
+                    <div class="col-4">
+                        <div class="form-group">
+                            <label for="bairro">Bairro:</label>
+                            <input class="form-control" type="text" name="bairro" id="bairro" placeholder="Digite o Bairro...">
+                        </div>
+
+                    </div> 
+                        
+                    <div class="col-1"></div> <!--Espaçamento entre os forms-->
+
+                    <!-- Campo de cadastro da cidade-->
+                    <div class="col-4">
+                        <div class="form-group">
+                            <label for="cidade">Cidade:</label>
+                            <input class="form-control" type="text" name="cidade" id="cidade" placeholder="Digite a cidade...">
+                        </div>
+
+                    </div>    
+                    <!-- Campo de cadastro do estado-->
+                    <div class="col-3">
+                        <div class="form-group">
+                            <label for="estado">Estado:</label>
+                            <input class="form-control" type="text" name="estado" id="estado" placeholder="Digite o estado...">
+                        </div>
+
+                    </div> 
+                </div><!--DIV row bairro, cidade e estado -->
+
+                <!-- Campo de cadastro do GIT HUB-->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form-group">
+                            <label for="perfilgithub">GITHUB:</label>
+                            <input class="form-control" type="perfilgithub" name="github" id="perfilgithub" placeholder="Digite o link do seu GITHUB...">
+                        </div>
+                    </div> 
+                </div><!--DIV row GIT HUB -->
+
+                <div class="col">
+                    <label for="entradaAcademia" class="form-label"><h5>Academia:</h5></label>
+                    <select type="Academia" class="form-control" id=Academia>
+                    <option value=""><h3>Selecione a Academia:</h3></option>
+                    <option value="1">Academia .NET</option>
+                    <option value="2">Academia JAVA</option>
+                    <option value="3">Academia Tester</option>
+                    </select>
+                </div> 
+                <div class="col">
+                    <label for="entradaMestre" class="form-label"><h5>Professor:</h5></label>
+                    <select type="Professor" class="form-control" id=Professor>
+                    <option><h4>Selecione o Professor:</h4></option>
+                    <option value="">Alexandre Zamberlan</option>
+                    <option value="1">Ricardo Frohlich</option>
+                    <option value="2">Deivison Pasa</option>
+                </select>
+                </div>  
+
+                        <!-- Termo de aceite -->
+                <div class="row">
+                    <div class="col" class="aceite">
+                        <div  class="text-center"  class="form-group" style="overflow: scroll ;max-height: 250px; width: 100%;">
+                            <label for="mensagem">Termo de Aceite</label>                                    
+                            <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+                            <p>"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in ullamcorper nunc. Pellentesque egestas vulputate libero eget dapibus. Vestibulum molestie, nisl non cursus cursus, orci elit gravida massa, sed feugiat velit velit quis diam. Phasellus erat orci, pharetra vel lacus ut, bibendum ultrices magna. Ut dictum sagittis nisl ut accumsan. Phasellus commodo massa sit amet tortor ultrices, vel pellentesque purus fringilla. Aliquam ac interdum nisi. Maecenas congue, risus vel maximus ullamcorper, enim nunc tempor diam, id fringilla odio nisi a lacus. Etiam gravida, arcu ut bibendum faucibus, justo lorem facilisis sapien, ac pharetra massa augue vitae sem. Vivamus laoreet quam ut nunc aliquet, in malesuada massa feugiat. Sed molestie dolor et venenatis consectetur.</p>
+                            <p>Integer ultrices justo eu risus pellentesque, nec placerat tortor lacinia. Nullam dapibus magna ac nisi ornare pretium. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula orci augue, at varius metus egestas ut. Sed cursus blandit dolor, at pellentesque velit vehicula nec. Ut non hendrerit est. Nunc sodales enim quis dui pulvinar placerat. Curabitur dictum a leo quis feugiat. Nunc lobortis purus id venenatis molestie. Fusce luctus elit lacus, id porta arcu accumsan id. Sed cursus mi facilisis, hendrerit dui nec, porttitor lectus.</p>
+                            <p>Curabitur fringilla rutrum aliquam. Donec sapien leo, ullamcorper vel varius ut, iaculis ut dolor. Suspendisse pulvinar, velit vel iaculis luctus, nisi turpis varius quam, ut cursus enim risus vitae nisl. Cras ipsum metus, consequat eu sem id, ultrices maximus purus. Integer non arcu mollis, convallis turpis ut, malesuada lectus. Donec sed ultricies leo, non euismod purus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam scelerisque efficitur lacus vel venenatis. Quisque porta felis elit, et varius leo fringilla at. Fusce gravida convallis orci quis tincidunt. Aliquam imperdiet quis nibh non dapibus. Vivamus pharetra, lorem a porta mollis, augue velit consectetur urna, eget posuere tortor tellus non nibh. Pellentesque venenatis eleifend pharetra. Aliquam sapien mi, blandit congue iaculis sit amet, efficitur ac velit. Vivamus id nisl metus.</p>
+                            <p>Fusce ante justo, interdum ac lacinia eget, pellentesque sed nisl. Maecenas turpis ligula, congue ac tincidunt sed, volutpat sed nulla. Nunc commodo lacinia eros non elementum. Cras quis massa mi. Nullam sagittis, arcu sit amet volutpat lacinia, metus ipsum tempus ante, eu bibendum est magna et lorem. Nunc ex urna, porta non tincidunt ac, dignissim varius magna. Integer pretium vulputate dapibus. Donec aliquet sodales scelerisque.</p>
+                            <p>Aenean at erat auctor, porta metus et, molestie diam. Curabitur vel ultricies nisi, eget efficitur lectus. Fusce vitae accumsan lacus. Fusce et ullamcorper tellus. Etiam id odio lectus. Fusce bibendum nunc id fermentum ullamcorper. Proin nunc metus, consequat nec ex rutrum, tempor porttitor libero. Curabitur laoreet scelerisque mi id tempor. Mauris consequat, ligula id lobortis tincidunt, nisl lacus consectetur turpis, at porta ex nunc id tellus. Praesent luctus, diam nec euismod vestibulum, nisi erat feugiat lectus, sit amet feugiat lectus neque eget nunc. Aliquam id bibendum elit. Ut et pulvinar urna.</p>
+                            <p>Cras dapibus, dui ac aliquam egestas, lectus ipsum consectetur erat, pharetra gravida lacus nisi sit amet massa. Vivamus arcu sapien, faucibus tempor pretium vitae, varius eu lorem. Donec justo nisi, mattis sed consectetur non, malesuada a libero. Vestibulum tristique eros non nisi aliquam, et eleifend metus sodales. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec a eros non purus imperdiet convallis vel sit amet quam. Vivamus quis odio sed arcu scelerisque dapibus cursus sit amet est.</p>
+                            <p>Aliquam erat volutpat. Vivamus ac lobortis mi, at ultricies sem. Suspendisse nulla tellus, tincidunt sed mauris vel, ultricies luctus odio. Ut eu enim nec ipsum sollicitudin ultrices ut at enim. Vivamus vehicula lacus at massa ultricies, sed vehicula risus suscipit. Phasellus at accumsan purus, in pretium urna. Ut vel eros ut nisl porta auctor. Phasellus fringilla leo id ultrices rhoncus. Cras malesuada aliquet sodales.</p>
+                            <p>Sed convallis euismod ultricies. Aliquam vehicula, ex sit amet mollis semper, arcu nibh vulputate nunc, ac volutpat velit magna in nisi. Curabitur finibus lectus diam, varius sodales est vulputate ac. Sed eget magna tempus, eleifend orci quis, viverra massa. In ultricies erat id arcu lobortis efficitur. Aliquam ullamcorper mattis vulputate. Aliquam eu molestie eros. Fusce eget scelerisque mi. Vivamus nec bibendum augue, ac fringilla nisl. Praesent a enim enim. Aenean imperdiet lacinia dignissim. Suspendisse varius fringilla eros quis pretium.</p>
+                            <p>Morbi nunc lacus, vulputate molestie dolor eget, ultrices placerat diam. Nam condimentum libero vel sem tincidunt, nec dapibus velit commodo. Quisque pretium odio in nisi fermentum, vel viverra risus congue. Nullam interdum ut sem vel lobortis. Duis eget neque facilisis, porta neque ut, sollicitudin eros. Morbi aliquam molestie odio eu aliquet. Donec nec hendrerit nibh. Nulla libero enim, accumsan at neque sed, tincidunt pellentesque leo.</p>
+                            <p>Nam lobortis ut ex aliquam vehicula. Pellentesque tempus, libero ut rutrum tincidunt, ex mi eleifend massa, in maximus arcu ipsum at mi. Proin et scelerisque elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis eu vulputate lorem. Cras ante ligula, tempor quis nibh non, hendrerit consequat orci. Proin quis justo velit. Pellentesque nec est non velit ultrices congue sit amet non lectus. Aenean accumsan massa eu quam semper, ut bibendum mi rutrum. Donec quis ante ut urna accumsan fringilla. Integer vulputate, nisl vel egestas congue, tortor nisi aliquet orci, in aliquam tortor metus ut nisi. Mauris quis mi interdum, auctor dui eget, maximus nunc. Nullam et eros sed ligula luctus ultrices. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Campo checkbox termo de aceite, alerta e botão-->
+                <div class="row">
+                    <div class="col">
+                        <div class="text-center">
+                            <input type="checkbox" name="agreement" id="agreement">
+                            <label for="agreement" id="agreement-label">Eu li e aceito os <a href="mensagem">termos de uso</a></label>
+                        </div>
+
+                        <div class="alert alert-danger d-none">
+                            x Preencha os campos corretamente
+                        </div>
+
+                        <div class="text-center" class="form-group">
+                            <button type="submit" class="btn btn-primary">ENVIAR</button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="card">
+        <div class="card-body">
+            <div id="tabela-cadastrado" class="bg-white p-5 mb-5 d-none">
+                <table class="table">
+                    <thead>
+                        <tr class="form">
+                            <th colspan="2">DADOS SUBMETIDOS PELO FORMULÁRIO</th>
+                        </tr>
+                    </thead>
+                               
+                        <tr>
+                            <th>Nome</th>
+                            <td class="i-nome"></td>
+                        </tr>
+                        <tr>
+                            <th>Sobrenome</th>
+                            <td id="i-sobrenome"></td>
+                        </tr>
+                        <tr>
+                            <th>E-mail</th>
+                            <td id="i-email"></td>
+                        </tr>
+                        <tr>
+                            <th>Login</th>
+                            <td id="i-login"></td>
+                        </tr>
+                        <tr>
+                            <th>Senha</th>
+                            <td id="i-senha"></td>
+                        </tr>
+                        <tr>
+                            <th>CEP</th>
+                            <td id="i-cep"></td>
+                        </tr>
+                        <tr>
+                            <th>Endereço</th>
+                            <td id="i-endereco"></td>
+                        </tr>
+                        <tr>
+                            <th>Complemento</th>
+                            <td id="i-complemento"></td>
+                        </tr>
+                        <tr>
+                            <th>Bairro</th>
+                            <td id="i-bairro"></td>
+                        </tr>
+                        <tr>
+                            <th>Cidade</th>
+                            <td id="i-cidade"></td>
+                        </tr>
+                        <tr>
+                            <th>Estado</th>
+                            <td id="i-estado"></td>
+                        </tr>
+                        <tr>
+                            <th>GitHub</th>
+                            <td id="i-perfilgithub"></td>
+                        </tr>
+                        <tr>
+                            <th>Academia</th>
+                            <td id="i-academia"></td>
+                        </tr>
+                        <tr>
+                            <th>Professor</th>
+                            <td id="i-professor"></td>
+                        </tr>
+                        <tr>
+                            <th>Termos legais</th>
+                            <td id="i-termos"></td>
+                        </tr>
+                </table>
+            <div>
+
+        </div>
+    </div>
+</div>
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--<form action='http://127.0.0.1:5500/index2.html'>
+        <input type="submit" value="Confira seus dados" />
+    </form> -->
+</body>
+</html>

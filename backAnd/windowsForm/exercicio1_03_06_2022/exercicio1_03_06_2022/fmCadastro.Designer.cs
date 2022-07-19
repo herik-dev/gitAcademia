@@ -123,7 +123,7 @@
             this.tbNome.Name = "tbNome";
             this.tbNome.Size = new System.Drawing.Size(288, 20);
             this.tbNome.TabIndex = 8;
-            this.tbNome.TextChanged += new System.EventHandler(this.tbNome_TextChanged);
+
             // 
             // tbTelefone
             // 

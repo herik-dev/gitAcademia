@@ -13,6 +13,7 @@ namespace exercicio1_03_06_2022
 {
     public partial class fmCadastro : Form
     {
+        static List<Cadastro> cadastro = new List<Cadastro>();
         public fmCadastro()
         {
             InitializeComponent();
@@ -55,11 +56,15 @@ namespace exercicio1_03_06_2022
             Cadastro c = new Cadastro(tbNome.Text, tbTelefone.Text, tbCPF.Text, tbLogin.Text, tbSenha.Text, status, tipo);
             cadastro.Add(c);
             //c.MostrarDadosCadastrados();
+            mostraListaCadastro();
         }
 
-        private void tbNome_TextChanged(object sender, EventArgs e)
+        static void mostraListaCadastro()
         {
-
+            foreach(Cadastro c in cadastro)
+            {
+                MessageBox.Show($"Nome: {c.tbNome}, tbTelefone.Text, tbCPF.Text, tbLogin.Text, tbSenha.Text, status, tipo");
+            }
         }
     }
 }

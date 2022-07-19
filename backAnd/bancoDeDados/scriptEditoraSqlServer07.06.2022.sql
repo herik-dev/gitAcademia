@@ -380,7 +380,7 @@ from livro
 where idEditora = 2;
 
 CREATE VIEW MediaPreco as
-select round(avg(preco),2) 
+select round(avg(preco),2) as 
 from livro 
 where idEditora = 2;
 

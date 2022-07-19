@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\3.jpg\**" />
+    <Compile Remove="wwwroot\3m.jpg\**" />
+    <Content Remove="wwwroot\3.jpg\**" />
+    <Content Remove="wwwroot\3m.jpg\**" />
+    <EmbeddedResource Remove="wwwroot\3.jpg\**" />
+    <EmbeddedResource Remove="wwwroot\3m.jpg\**" />
+    <None Remove="wwwroot\3.jpg\**" />
+    <None Remove="wwwroot\3m.jpg\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\3.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.7" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\imagem\" />
+  </ItemGroup>
+
+</Project>

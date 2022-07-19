@@ -18,6 +18,7 @@ namespace desafioWFBD_Vendas
         public FormCadastroVinhos()
         {
             InitializeComponent();
+            this.produtoTableAdapter.Fill(this.desafiovendas_dbDataSet.Produto);
 
             string stringConexao = "Data Source=VIRUS\\SQLEXPRESS;Initial Catalog=desafiovendas_db;TrustServerCertificate=True;Integrated Security=True";
 
@@ -92,7 +93,6 @@ namespace desafioWFBD_Vendas
         private void FormCadastroVinhos_Load(object sender, EventArgs e)
         {
             // TODO: esta linha de código carrega dados na tabela 'desafiovendas_dbDataSet.Produto'. Você pode movê-la ou removê-la conforme necessário.
-            this.produtoTableAdapter.Fill(this.desafiovendas_dbDataSet.Produto);
 
         }
     }

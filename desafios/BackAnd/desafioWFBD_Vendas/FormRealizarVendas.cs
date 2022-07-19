@@ -29,10 +29,13 @@ namespace desafioWFBD_Vendas
 
 
                 string sqlTexto = "INSERT INTO Venda(valorTotal, nomeCliente, NomeProduto) VALUES (@valorTotal, @nomeCliente, @NomeProduto)";
-                float test = float.Parse("SELECT preco FROM Pr");
                 SqlCommand comando = new SqlCommand(sqlTexto, conexao);
-                
-                float total = float.Parse(tbQuantidade.Text) * preco;
+
+
+                if ()
+                    float calculo = "SELECT preco FROM Produto";
+
+                float total = float.Parse(tbQuantidade.Text);
 
                 //Insere os dados dos TextBox no comando SQL
                 comando.Parameters.Add(new SqlParameter("@valorTotal", total));
@@ -50,10 +53,10 @@ namespace desafioWFBD_Vendas
             {
                 MessageBox.Show(erro.Message);
             }
-           // finally
-        //    {
-            //    conexao.Close();
-           // }
+            finally
+            {
+                conexao.Close();
+            }
 
 
 
@@ -69,6 +72,11 @@ namespace desafioWFBD_Vendas
             {
                 System.Windows.Forms.MessageBox.Show(ex.Message);
             }
+
+        }
+
+        private void cbNome_SelectedIndexChanged(object sender, EventArgs e)
+        {
 
         }
     }

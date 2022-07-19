@@ -57,5 +57,7 @@ namespace glicemiaComBDADO
             }
             conexao.Close();
         }
+
+        
     }
 }

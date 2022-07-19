@@ -35,8 +35,12 @@
             this.cbCliente = new System.Windows.Forms.ComboBox();
             this.clienteBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.desafiovendas_dbDataSet = new desafioWFBD_Vendas.desafiovendas_dbDataSet();
+            this.clienteBindingSource4 = new System.Windows.Forms.BindingSource(this.components);
+            this.desafiovendasdbDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.clienteBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.cbNome = new System.Windows.Forms.ComboBox();
+            this.produtoBindingSource6 = new System.Windows.Forms.BindingSource(this.components);
+            this.produtoBindingSource4 = new System.Windows.Forms.BindingSource(this.components);
             this.produtoBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.produtoBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.clienteTableAdapter = new desafioWFBD_Vendas.desafiovendas_dbDataSetTableAdapters.ClienteTableAdapter();
@@ -45,38 +49,40 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.valorTotalDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nomeClienteDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nomeProdutoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.vendaBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.vendaTableAdapter = new desafioWFBD_Vendas.desafiovendas_dbDataSetTableAdapters.VendaTableAdapter();
             this.btRealizarVenda = new System.Windows.Forms.Button();
             this.produtoBindingSource3 = new System.Windows.Forms.BindingSource(this.components);
             this.produtoBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
-            this.desafiovendasdbDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.tbQuantidade = new System.Windows.Forms.TextBox();
             this.clienteBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
-            this.nomeProdutoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nomeClienteDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.valorTotalDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.produtoBindingSource4 = new System.Windows.Forms.BindingSource(this.components);
             this.produtoBindingSource5 = new System.Windows.Forms.BindingSource(this.components);
             this.clienteBindingSource3 = new System.Windows.Forms.BindingSource(this.components);
-            this.clienteBindingSource4 = new System.Windows.Forms.BindingSource(this.components);
-            this.produtoBindingSource6 = new System.Windows.Forms.BindingSource(this.components);
+            this.vendaBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.produtoBindingSource7 = new System.Windows.Forms.BindingSource(this.components);
+            this.produtoBindingSource8 = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.clienteBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.desafiovendas_dbDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clienteBindingSource4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.desafiovendasdbDataSetBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.clienteBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.produtoBindingSource6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.produtoBindingSource4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.produtoBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.produtoBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.vendaBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.produtoBindingSource3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.produtoBindingSource2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.desafiovendasdbDataSetBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.clienteBindingSource2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.produtoBindingSource4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.produtoBindingSource5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.clienteBindingSource3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.clienteBindingSource4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.produtoBindingSource6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.vendaBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.produtoBindingSource7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.produtoBindingSource8)).BeginInit();
             this.SuspendLayout();
             // 
             // lbRealizarVenda
@@ -126,6 +132,16 @@
             this.desafiovendas_dbDataSet.DataSetName = "desafiovendas_dbDataSet";
             this.desafiovendas_dbDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
+            // clienteBindingSource4
+            // 
+            this.clienteBindingSource4.DataMember = "Cliente";
+            this.clienteBindingSource4.DataSource = this.desafiovendasdbDataSetBindingSource;
+            // 
+            // desafiovendasdbDataSetBindingSource
+            // 
+            this.desafiovendasdbDataSetBindingSource.DataSource = this.desafiovendas_dbDataSet;
+            this.desafiovendasdbDataSetBindingSource.Position = 0;
+            // 
             // clienteBindingSource
             // 
             this.clienteBindingSource.DataMember = "Cliente";
@@ -140,7 +156,18 @@
             this.cbNome.Location = new System.Drawing.Point(184, 205);
             this.cbNome.Name = "cbNome";
             this.cbNome.Size = new System.Drawing.Size(121, 21);
-            this.cbNome.TabIndex = 15;
+            this.cbNome.TabIndex = 14;
+            this.cbNome.SelectedIndexChanged += new System.EventHandler(this.cbNome_SelectedIndexChanged);
+            // 
+            // produtoBindingSource6
+            // 
+            this.produtoBindingSource6.DataMember = "Produto";
+            this.produtoBindingSource6.DataSource = this.desafiovendas_dbDataSet;
+            // 
+            // produtoBindingSource4
+            // 
+            this.produtoBindingSource4.DataMember = "Produto";
+            this.produtoBindingSource4.DataSource = this.desafiovendasdbDataSetBindingSource;
             // 
             // produtoBindingSource1
             // 
@@ -172,7 +199,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(150, 244);
+            this.label2.Location = new System.Drawing.Point(58, 244);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(62, 13);
             this.label2.TabIndex = 17;
@@ -201,6 +228,24 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(352, 237);
             this.dataGridView1.TabIndex = 19;
+            // 
+            // valorTotalDataGridViewTextBoxColumn
+            // 
+            this.valorTotalDataGridViewTextBoxColumn.DataPropertyName = "valorTotal";
+            this.valorTotalDataGridViewTextBoxColumn.HeaderText = "Valor Total";
+            this.valorTotalDataGridViewTextBoxColumn.Name = "valorTotalDataGridViewTextBoxColumn";
+            // 
+            // nomeClienteDataGridViewTextBoxColumn
+            // 
+            this.nomeClienteDataGridViewTextBoxColumn.DataPropertyName = "nomeCliente";
+            this.nomeClienteDataGridViewTextBoxColumn.HeaderText = "Nome do Cliente";
+            this.nomeClienteDataGridViewTextBoxColumn.Name = "nomeClienteDataGridViewTextBoxColumn";
+            // 
+            // nomeProdutoDataGridViewTextBoxColumn
+            // 
+            this.nomeProdutoDataGridViewTextBoxColumn.DataPropertyName = "NomeProduto";
+            this.nomeProdutoDataGridViewTextBoxColumn.HeaderText = "Nome do Produto";
+            this.nomeProdutoDataGridViewTextBoxColumn.Name = "nomeProdutoDataGridViewTextBoxColumn";
             // 
             // vendaBindingSource
             // 
@@ -231,45 +276,17 @@
             this.produtoBindingSource2.DataMember = "Produto";
             this.produtoBindingSource2.DataSource = this.desafiovendasdbDataSetBindingSource;
             // 
-            // desafiovendasdbDataSetBindingSource
-            // 
-            this.desafiovendasdbDataSetBindingSource.DataSource = this.desafiovendas_dbDataSet;
-            this.desafiovendasdbDataSetBindingSource.Position = 0;
-            // 
             // tbQuantidade
             // 
-            this.tbQuantidade.Location = new System.Drawing.Point(129, 269);
+            this.tbQuantidade.Location = new System.Drawing.Point(37, 269);
             this.tbQuantidade.Name = "tbQuantidade";
             this.tbQuantidade.Size = new System.Drawing.Size(100, 20);
-            this.tbQuantidade.TabIndex = 22;
+            this.tbQuantidade.TabIndex = 15;
             // 
             // clienteBindingSource2
             // 
             this.clienteBindingSource2.DataMember = "Cliente";
             this.clienteBindingSource2.DataSource = this.desafiovendasdbDataSetBindingSource;
-            // 
-            // nomeProdutoDataGridViewTextBoxColumn
-            // 
-            this.nomeProdutoDataGridViewTextBoxColumn.DataPropertyName = "NomeProduto";
-            this.nomeProdutoDataGridViewTextBoxColumn.HeaderText = "Nome do Produto";
-            this.nomeProdutoDataGridViewTextBoxColumn.Name = "nomeProdutoDataGridViewTextBoxColumn";
-            // 
-            // nomeClienteDataGridViewTextBoxColumn
-            // 
-            this.nomeClienteDataGridViewTextBoxColumn.DataPropertyName = "nomeCliente";
-            this.nomeClienteDataGridViewTextBoxColumn.HeaderText = "Nome do Cliente";
-            this.nomeClienteDataGridViewTextBoxColumn.Name = "nomeClienteDataGridViewTextBoxColumn";
-            // 
-            // valorTotalDataGridViewTextBoxColumn
-            // 
-            this.valorTotalDataGridViewTextBoxColumn.DataPropertyName = "valorTotal";
-            this.valorTotalDataGridViewTextBoxColumn.HeaderText = "Valor Total";
-            this.valorTotalDataGridViewTextBoxColumn.Name = "valorTotalDataGridViewTextBoxColumn";
-            // 
-            // produtoBindingSource4
-            // 
-            this.produtoBindingSource4.DataMember = "Produto";
-            this.produtoBindingSource4.DataSource = this.desafiovendasdbDataSetBindingSource;
             // 
             // produtoBindingSource5
             // 
@@ -281,15 +298,20 @@
             this.clienteBindingSource3.DataMember = "Cliente";
             this.clienteBindingSource3.DataSource = this.desafiovendasdbDataSetBindingSource;
             // 
-            // clienteBindingSource4
+            // vendaBindingSource1
             // 
-            this.clienteBindingSource4.DataMember = "Cliente";
-            this.clienteBindingSource4.DataSource = this.desafiovendasdbDataSetBindingSource;
+            this.vendaBindingSource1.DataMember = "Venda";
+            this.vendaBindingSource1.DataSource = this.desafiovendasdbDataSetBindingSource;
             // 
-            // produtoBindingSource6
+            // produtoBindingSource7
             // 
-            this.produtoBindingSource6.DataMember = "Produto";
-            this.produtoBindingSource6.DataSource = this.desafiovendas_dbDataSet;
+            this.produtoBindingSource7.DataMember = "Produto";
+            this.produtoBindingSource7.DataSource = this.desafiovendas_dbDataSet;
+            // 
+            // produtoBindingSource8
+            // 
+            this.produtoBindingSource8.DataMember = "Produto";
+            this.produtoBindingSource8.DataSource = this.desafiovendas_dbDataSet;
             // 
             // FormRealizarVendas
             // 
@@ -312,20 +334,23 @@
             this.Text = "Realizar Vendas";
             ((System.ComponentModel.ISupportInitialize)(this.clienteBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.desafiovendas_dbDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clienteBindingSource4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.desafiovendasdbDataSetBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.clienteBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.produtoBindingSource6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.produtoBindingSource4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.produtoBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.produtoBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.vendaBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.produtoBindingSource3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.produtoBindingSource2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.desafiovendasdbDataSetBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.clienteBindingSource2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.produtoBindingSource4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.produtoBindingSource5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.clienteBindingSource3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.clienteBindingSource4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.produtoBindingSource6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.vendaBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.produtoBindingSource7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.produtoBindingSource8)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -364,5 +389,8 @@
         private System.Windows.Forms.BindingSource clienteBindingSource3;
         private System.Windows.Forms.BindingSource clienteBindingSource4;
         private System.Windows.Forms.BindingSource produtoBindingSource6;
+        private System.Windows.Forms.BindingSource produtoBindingSource8;
+        private System.Windows.Forms.BindingSource produtoBindingSource7;
+        private System.Windows.Forms.BindingSource vendaBindingSource1;
     }
 }
